@@ -1,0 +1,452 @@
+[
+  {
+    "agent_id": "user_1",
+    "age": "13",
+    "education": "初中",
+    "expertise": "电子游戏",
+    "reading_level": "基础阅读能力",
+    "personality": "活泼好动，喜欢新鲜事物",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_2",
+    "age": "15",
+    "education": "高中",
+    "expertise": "数学竞赛",
+    "reading_level": "能阅读科普文章",
+    "personality": "逻辑思维强，专注力高",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_3",
+    "age": "14",
+    "education": "初中",
+    "expertise": "流行音乐",
+    "reading_level": "喜欢阅读歌词和娱乐资讯",
+    "personality": "感性丰富，富有创造力",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_4",
+    "age": "16",
+    "education": "高中",
+    "expertise": "编程入门",
+    "reading_level": "能理解技术教程",
+    "personality": "理性、好奇心强",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_5",
+    "age": "12",
+    "education": "小学",
+    "expertise": "动画与漫画",
+    "reading_level": "阅读漫画和简短故事",
+    "personality": "想象力丰富，情绪多变",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_6",
+    "age": "17",
+    "education": "高中",
+    "expertise": "运动体育",
+    "reading_level": "偏好图文结合的阅读方式",
+    "personality": "外向阳光，善于交际",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_7",
+    "age": "14",
+    "education": "初中",
+    "expertise": "文学写作",
+    "reading_level": "喜爱阅读小说和散文",
+    "personality": "细腻敏感，富有同理心",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_8",
+    "age": "15",
+    "education": "高中",
+    "expertise": "科学实验",
+    "reading_level": "能阅读实验手册和报告",
+    "personality": "喜欢探索，动手能力强",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_9",
+    "age": "13",
+    "education": "初中",
+    "expertise": "社交媒体运营",
+    "reading_level": "习惯短视频与短文阅读",
+    "personality": "潮流敏感，追求表达个性",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_10",
+    "age": "16",
+    "education": "高中",
+    "expertise": "英语学习",
+    "reading_level": "能阅读英文原版小说片段",
+    "personality": "自律性强，目标明确",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_11",
+    "age": "13",
+    "education": "初中",
+    "expertise": "编程入门",
+    "reading_level": "能理解简单技术文档",
+    "personality": "好奇心强，富有探索精神",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_12",
+    "age": "15",
+    "education": "高中",
+    "expertise": "数学竞赛",
+    "reading_level": "熟练阅读数学相关资料",
+    "personality": "逻辑思维强，认真专注",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_13",
+    "age": "14",
+    "education": "初中",
+    "expertise": "短视频创作",
+    "reading_level": "习惯浏览网络短内容",
+    "personality": "富有创意，喜欢表达自我",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_14",
+    "age": "16",
+    "education": "高中",
+    "expertise": "英语演讲",
+    "reading_level": "能阅读英文原版短文",
+    "personality": "自信开朗，善于沟通",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_15",
+    "age": "17",
+    "education": "高中",
+    "expertise": "人工智能入门",
+    "reading_level": "能理解基础AI知识文章",
+    "personality": "理性冷静，喜欢动手实践",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_16",
+    "age": "13",
+    "education": "初中",
+    "expertise": "游戏设计",
+    "reading_level": "喜欢阅读游戏开发相关教程",
+    "personality": "想象力丰富，热爱创作",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_17",
+    "age": "15",
+    "education": "初中",
+    "expertise": "运动健康",
+    "reading_level": "能阅读基础健康科普内容",
+    "personality": "活力充沛，团队意识强",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_18",
+    "age": "14",
+    "education": "初中",
+    "expertise": "艺术绘画",
+    "reading_level": "习惯阅读图文结合的艺术资料",
+    "personality": "细腻敏感，善于观察",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_19",
+    "age": "16",
+    "education": "高中",
+    "expertise": "环境科学",
+    "reading_level": "能理解环保类科普文章",
+    "personality": "有责任感，重视环保理念",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_20",
+    "age": "17",
+    "education": "高中",
+    "expertise": "新闻传媒",
+    "reading_level": "能阅读分析主流媒体报道",
+    "personality": "关注时事，表达欲强",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_21",
+    "age": "13",
+    "education": "初中",
+    "expertise": "数学竞赛",
+    "reading_level": "理解中等难度小说",
+    "personality": "内向、理性，喜欢独立思考",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_22",
+    "age": "15",
+    "education": "高中",
+    "expertise": "音乐创作",
+    "reading_level": "能阅读音乐评论文章",
+    "personality": "感性细腻，富有创造力",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_23",
+    "age": "14",
+    "education": "初中",
+    "expertise": "编程入门",
+    "reading_level": "读懂基础技术文档",
+    "personality": "好奇好问，乐于尝试新事物",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_24",
+    "age": "16",
+    "education": "高中",
+    "expertise": "英语学习",
+    "reading_level": "可流畅阅读英文小说",
+    "personality": "外向开朗，乐于交流表达",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_25",
+    "age": "12",
+    "education": "小学",
+    "expertise": "科学兴趣班",
+    "reading_level": "阅读科普读物",
+    "personality": "活泼好动，对世界充满好奇",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_26",
+    "age": "17",
+    "education": "高中",
+    "expertise": "体育运动",
+    "reading_level": "简单阅读训练资料",
+    "personality": "积极向上，富有团队精神",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_27",
+    "age": "14",
+    "education": "初中",
+    "expertise": "美术绘画",
+    "reading_level": "阅读美术评论和画册介绍",
+    "personality": "安静专注，富有艺术感",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_28",
+    "age": "15",
+    "education": "高中",
+    "expertise": "写作与文学创作",
+    "reading_level": "深入阅读经典文学作品",
+    "personality": "善于表达，富于情感",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_29",
+    "age": "13",
+    "education": "初中",
+    "expertise": "动漫与二次元文化",
+    "reading_level": "流畅阅读相关资讯和文章",
+    "personality": "理想主义，喜欢幻想",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_30",
+    "age": "16",
+    "education": "高中",
+    "expertise": "商业与创业兴趣",
+    "reading_level": "能理解商业案例分析",
+    "personality": "目标明确，思维敏捷",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_31",
+    "age": "13",
+    "education": "初中",
+    "expertise": "游戏设计",
+    "reading_level": "理解通俗小说",
+    "personality": "充满好奇心，富有创造力",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_32",
+    "age": "15",
+    "education": "高中",
+    "expertise": "数学竞赛",
+    "reading_level": "熟练阅读学术资料",
+    "personality": "理性冷静，追求卓越",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_33",
+    "age": "14",
+    "education": "初中",
+    "expertise": "音乐创作",
+    "reading_level": "理解歌词与诗歌",
+    "personality": "感性细腻，表达欲强",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_34",
+    "age": "16",
+    "education": "高中",
+    "expertise": "体育运动",
+    "reading_level": "简单阅读运动科普",
+    "personality": "外向开朗，团队意识强",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_35",
+    "age": "12",
+    "education": "小学",
+    "expertise": "绘画与手工",
+    "reading_level": "阅读儿童故事书",
+    "personality": "安静专注，想象力丰富",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_36",
+    "age": "17",
+    "education": "高中",
+    "expertise": "人工智能基础",
+    "reading_level": "阅读科技新闻与教程",
+    "personality": "思维敏捷，热衷探索",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_37",
+    "age": "13",
+    "education": "初中",
+    "expertise": "语言学习",
+    "reading_level": "阅读简易英文绘本",
+    "personality": "开朗爱说，善于模仿",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_38",
+    "age": "15",
+    "education": "高中",
+    "expertise": "摄影与剪辑",
+    "reading_level": "阅读操作手册与技巧教程",
+    "personality": "审美独特，热爱表达",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_39",
+    "age": "14",
+    "education": "初中",
+    "expertise": "生物与自然",
+    "reading_level": "理解基础科普读物",
+    "personality": "安静内敛，热爱观察",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_40",
+    "age": "16",
+    "education": "高中",
+    "expertise": "写作与创意表达",
+    "reading_level": "阅读小说与评论文章",
+    "personality": "文思细腻，情绪敏感",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_41",
+    "age": "13",
+    "education": "初中",
+    "expertise": "动漫与二次元文化",
+    "reading_level": "能理解漫画和轻小说内容",
+    "personality": "热爱幻想，富于创造力",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_42",
+    "age": "14",
+    "education": "初中",
+    "expertise": "电子游戏与网络文化",
+    "reading_level": "阅读短视频脚本及游戏攻略无困难",
+    "personality": "好动、喜欢挑战与竞争",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_43",
+    "age": "15",
+    "education": "高中",
+    "expertise": "数学与逻辑推理",
+    "reading_level": "能理解较复杂的教材内容",
+    "personality": "逻辑性强，追求效率",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_44",
+    "age": "12",
+    "education": "小学",
+    "expertise": "手工制作与创意艺术",
+    "reading_level": "喜欢图文结合的书籍",
+    "personality": "热情开朗，富有同理心",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_45",
+    "age": "16",
+    "education": "高中",
+    "expertise": "语言表达与演讲",
+    "reading_level": "善于阅读文学类作品",
+    "personality": "善于表达，乐于交流",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_46",
+    "age": "17",
+    "education": "高中",
+    "expertise": "体育运动与训练",
+    "reading_level": "偏好实用性强的简明读物",
+    "personality": "自信果断，喜欢团队合作",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_47",
+    "age": "14",
+    "education": "初中",
+    "expertise": "编程与机器人技术",
+    "reading_level": "能阅读基础的编程教程",
+    "personality": "好奇、乐于动手实践",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_48",
+    "age": "13",
+    "education": "初中",
+    "expertise": "音乐与舞蹈",
+    "reading_level": "偏好视频或音频学习方式",
+    "personality": "敏感细腻，表现力强",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_49",
+    "age": "15",
+    "education": "高中",
+    "expertise": "自然科学与实验研究",
+    "reading_level": "能够阅读科普文章和实验报告",
+    "personality": "冷静理性，喜欢观察分析",
+    "career": "青少年"
+  },
+  {
+    "agent_id": "user_50",
+    "age": "16",
+    "education": "高中",
+    "expertise": "摄影与视觉艺术",
+    "reading_level": "偏好图像辅助理解文字",
+    "personality": "独立自主，追求独特表达",
+    "career": "青少年"
+  }
+]

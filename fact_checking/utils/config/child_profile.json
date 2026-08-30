@@ -1,0 +1,452 @@
+[
+  {
+    "agent_id": "user_1",
+    "age": "8",
+    "education": "小学二年级",
+    "expertise": "动物认知",
+    "reading_level": "图文结合读物理解",
+    "personality": "好奇心强，活泼好动",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_2",
+    "age": "10",
+    "education": "小学四年级",
+    "expertise": "手工制作",
+    "reading_level": "简单故事书阅读",
+    "personality": "富有创造力，乐于分享",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_3",
+    "age": "7",
+    "education": "小学一年级",
+    "expertise": "拼音识字",
+    "reading_level": "基础识字读物理解",
+    "personality": "乖巧听话，专注力较短",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_4",
+    "age": "9",
+    "education": "小学三年级",
+    "expertise": "数学计算",
+    "reading_level": "能独立阅读短篇故事",
+    "personality": "逻辑清晰，做事有条理",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_5",
+    "age": "11",
+    "education": "小学五年级",
+    "expertise": "自然科学启蒙",
+    "reading_level": "可理解科普绘本内容",
+    "personality": "爱提问，求知欲旺盛",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_6",
+    "age": "6",
+    "education": "学前班",
+    "expertise": "颜色与形状识别",
+    "reading_level": "依赖图画理解内容",
+    "personality": "天真烂漫，模仿能力强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_7",
+    "age": "12",
+    "education": "小学六年级",
+    "expertise": "英语基础词汇",
+    "reading_level": "简单双语读物理解",
+    "personality": "自律性强，目标明确",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_8",
+    "age": "8",
+    "education": "小学二年级",
+    "expertise": "音乐节奏感知",
+    "reading_level": "图文故事书阅读",
+    "personality": "情感丰富，表现欲强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_9",
+    "age": "10",
+    "education": "小学四年级",
+    "expertise": "团队协作游戏",
+    "reading_level": "理解情节较复杂的故事",
+    "personality": "善于沟通，富有同理心",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_10",
+    "age": "9",
+    "education": "小学三年级",
+    "expertise": "植物生长观察",
+    "reading_level": "能阅读带注音的读物",
+    "personality": "耐心细致，热爱自然",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_11",
+    "age": "8",
+    "education": "小学二年级",
+    "expertise": "动物认知",
+    "reading_level": "拼音辅助阅读",
+    "personality": "好奇活泼，喜欢提问",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_12",
+    "age": "10",
+    "education": "小学四年级",
+    "expertise": "绘画创作",
+    "reading_level": "独立阅读儿童故事书",
+    "personality": "富有想象力，情感细腻",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_13",
+    "age": "7",
+    "education": "小学一年级",
+    "expertise": "拼图与积木搭建",
+    "reading_level": "图画为主，识字初期",
+    "personality": "专注力强，动手能力强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_14",
+    "age": "9",
+    "education": "小学三年级",
+    "expertise": "自然观察（植物与昆虫）",
+    "reading_level": "能读简短科普短文",
+    "personality": "安静细心，热爱大自然",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_15",
+    "age": "6",
+    "education": "学前班",
+    "expertise": "儿歌与童谣记忆",
+    "reading_level": "依赖听读结合",
+    "personality": "天真烂漫，模仿力强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_16",
+    "age": "11",
+    "education": "小学五年级",
+    "expertise": "数学逻辑游戏",
+    "reading_level": "可理解较复杂说明文本",
+    "personality": "理性思考，追求挑战",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_17",
+    "age": "8",
+    "education": "小学二年级",
+    "expertise": "舞蹈表演",
+    "reading_level": "看图识字类读物",
+    "personality": "自信开朗，表现欲强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_18",
+    "age": "10",
+    "education": "小学四年级",
+    "expertise": "天文基础知识",
+    "reading_level": "阅读图文并茂科普书",
+    "personality": "沉静好思，有探索精神",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_19",
+    "age": "7",
+    "education": "小学一年级",
+    "expertise": "语言表达与讲故事",
+    "reading_level": "短句阅读，需成人引导",
+    "personality": "善于沟通，富有同理心",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_20",
+    "age": "9",
+    "education": "小学三年级",
+    "expertise": "基础编程游戏（图形化）",
+    "reading_level": "理解步骤性指令文本",
+    "personality": "条理清晰，乐于解决问题",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_21",
+    "age": "8",
+    "education": "小学二年级",
+    "expertise": "动物认知",
+    "reading_level": "拼音辅助阅读",
+    "personality": "好奇活泼，喜欢提问",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_22",
+    "age": "10",
+    "education": "小学四年级",
+    "expertise": "绘画创作",
+    "reading_level": "独立阅读儿童故事书",
+    "personality": "富有想象力，情感细腻",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_23",
+    "age": "7",
+    "education": "小学一年级",
+    "expertise": "拼图与积木搭建",
+    "reading_level": "图画为主，识字初期",
+    "personality": "专注力强，动手能力强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_24",
+    "age": "9",
+    "education": "小学三年级",
+    "expertise": "自然观察（植物与昆虫）",
+    "reading_level": "能读简短科普短文",
+    "personality": "安静细心，热爱大自然",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_25",
+    "age": "6",
+    "education": "学前班",
+    "expertise": "儿歌与童谣记忆",
+    "reading_level": "依赖听读结合",
+    "personality": "天真烂漫，模仿力强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_26",
+    "age": "11",
+    "education": "小学五年级",
+    "expertise": "数学逻辑游戏",
+    "reading_level": "可理解较复杂说明文本",
+    "personality": "理性思考，追求挑战",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_27",
+    "age": "8",
+    "education": "小学二年级",
+    "expertise": "舞蹈表演",
+    "reading_level": "看图识字类读物",
+    "personality": "自信开朗，表现欲强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_28",
+    "age": "10",
+    "education": "小学四年级",
+    "expertise": "天文基础知识",
+    "reading_level": "阅读图文并茂科普书",
+    "personality": "沉静好思，有探索精神",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_29",
+    "age": "7",
+    "education": "小学一年级",
+    "expertise": "语言表达与讲故事",
+    "reading_level": "短句阅读，需成人引导",
+    "personality": "善于沟通，富有同理心",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_30",
+    "age": "9",
+    "education": "小学三年级",
+    "expertise": "基础编程游戏（图形化）",
+    "reading_level": "理解步骤性指令文本",
+    "personality": "条理清晰，乐于解决问题",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_31",
+    "age": "8",
+    "education": "小学二年级",
+    "expertise": "动物认知",
+    "reading_level": "图文并茂的短句阅读",
+    "personality": "好奇心强，活泼好动",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_32",
+    "age": "9",
+    "education": "小学三年级",
+    "expertise": "绘画创作",
+    "reading_level": "简单故事书阅读",
+    "personality": "富有想象力，乐于表达",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_33",
+    "age": "7",
+    "education": "小学一年级",
+    "expertise": "拼音与识字",
+    "reading_level": "基础识字读物",
+    "personality": "认真专注，喜欢表扬",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_34",
+    "age": "10",
+    "education": "小学四年级",
+    "expertise": "数学运算",
+    "reading_level": "能理解说明类短文",
+    "personality": "逻辑清晰，做事有条理",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_35",
+    "age": "6",
+    "education": "学前班",
+    "expertise": "儿歌记忆",
+    "reading_level": "看图说话水平",
+    "personality": "天真可爱，模仿力强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_36",
+    "age": "11",
+    "education": "小学五年级",
+    "expertise": "科学小实验",
+    "reading_level": "可读科普绘本",
+    "personality": "爱提问，探索欲强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_37",
+    "age": "8",
+    "education": "小学二年级",
+    "expertise": "体育运动（跳绳、跑步）",
+    "reading_level": "图画书阅读",
+    "personality": "阳光开朗，团队意识强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_38",
+    "age": "9",
+    "education": "小学三年级",
+    "expertise": "乐器演奏（钢琴）",
+    "reading_level": "带注音的故事书",
+    "personality": "耐心细致，追求完美",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_39",
+    "age": "7",
+    "education": "小学一年级",
+    "expertise": "积木搭建",
+    "reading_level": "简单指令理解",
+    "personality": "动手能力强，专注力高",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_40",
+    "age": "10",
+    "education": "小学四年级",
+    "expertise": "英语口语",
+    "reading_level": "初级英文绘本阅读",
+    "personality": "自信大方，乐于交流",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_41",
+    "age": "8",
+    "education": "小学二年级",
+    "expertise": "基础数学运算",
+    "reading_level": "能读简单绘本",
+    "personality": "好奇活泼，喜欢提问",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_42",
+    "age": "10",
+    "education": "小学四年级",
+    "expertise": "自然常识",
+    "reading_level": "可理解科普短文",
+    "personality": "乐观开朗，乐于分享",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_43",
+    "age": "7",
+    "education": "小学一年级",
+    "expertise": "拼音与识字",
+    "reading_level": "看图识字为主",
+    "personality": "安静专注，模仿力强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_44",
+    "age": "9",
+    "education": "小学三年级",
+    "expertise": "手工绘画",
+    "reading_level": "阅读儿童故事书",
+    "personality": "富有创造力，情感细腻",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_45",
+    "age": "11",
+    "education": "小学五年级",
+    "expertise": "英语基础会话",
+    "reading_level": "能读简易英文绘本",
+    "personality": "自信主动，喜欢表现",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_46",
+    "age": "6",
+    "education": "学前班",
+    "expertise": "数字认知",
+    "reading_level": "听读结合，依赖图画",
+    "personality": "天真烂漫，注意力短暂",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_47",
+    "age": "12",
+    "education": "小学六年级",
+    "expertise": "基础编程逻辑",
+    "reading_level": "理解中等难度说明文",
+    "personality": "理性思考，兴趣驱动",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_48",
+    "age": "8",
+    "education": "小学二年级",
+    "expertise": "音乐节奏感知",
+    "reading_level": "识别简单歌词和指令",
+    "personality": "敏感聪慧，表达欲强",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_49",
+    "age": "10",
+    "education": "小学四年级",
+    "expertise": "团队协作游戏",
+    "reading_level": "理解情节性短篇故事",
+    "personality": "善于合作，有同理心",
+    "career": "儿童"
+  },
+  {
+    "agent_id": "user_50",
+    "age": "9",
+    "education": "小学三年级",
+    "expertise": "动植物观察",
+    "reading_level": "阅读图文并茂的科普材料",
+    "personality": "耐心细致，热爱自然",
+    "career": "儿童"
+  }
+]

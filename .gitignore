@@ -1,0 +1,20 @@
+.DS_Store
+
+# Secrets / local config
+.env
+.env.local
+*.env.local
+
+__pycache__/
+*.pyc
+
+# Fact-checking module data (knowledge base, local datasets)
+data/
+tests/data/
+
+# Evaluation outputs and locally prepared evaluation data
+evaluation/artifacts/
+evaluation/data/
+
+# Training data (must be prepared/downloaded separately)
+training/train_data/

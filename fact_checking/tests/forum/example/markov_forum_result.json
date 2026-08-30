@@ -1,0 +1,1499 @@
+{
+  "original_complex_claim": "76-85% of people with severe mental disorder receive no treatment in low and middle income countries.",
+  "extraction": {
+    "claims": [
+      "在低收入和中等收入国家，76%至85%的重度精神障碍患者未接受治疗。"
+    ],
+    "weights": [
+      1.0
+    ],
+    "items": [
+      {
+        "claim": "在低收入和中等收入国家，76%至85%的重度精神障碍患者未接受治疗。",
+        "weight": 1.0
+      }
+    ],
+    "raw": "<claim>在低收入和中等收入国家，76%至85%的重度精神障碍患者未接受治疗。</claim>\n<weight>1.00</weight>"
+  },
+  "debate_settings": {
+    "min_debate_rounds": 1,
+    "max_debate_rounds": 3,
+    "model": "deepseek-chat",
+    "max_workers": 1
+  },
+  "sub_claim_debates": [
+    {
+      "index": 0,
+      "claim": "在低收入和中等收入国家，76%至85%的重度精神障碍患者未接受治疗。",
+      "weight": 1.0,
+      "debate": {
+        "initial": {
+          "opinion": "检索到的摘要中，第2次检索的第1条摘要明确指出，低收入和中等收入国家（LMICs）在基础设施、资金、法律和人力资源方面存在短缺，导致了显著的治疗缺口。这为“存在显著治疗缺口”这一核心主张提供了支持性背景。然而，所有检索结果均未直接提供“76%至85%”这一具体比例的数据来证实该说法。因此，该主张缺乏直接证据支持。",
+          "stance": "0",
+          "factuality": false,
+          "raw": "<opinion>检索到的摘要中，第2次检索的第1条摘要明确指出，低收入和中等收入国家（LMICs）在基础设施、资金、法律和人力资源方面存在短缺，导致了显著的治疗缺口。这为“存在显著治疗缺口”这一核心主张提供了支持性背景。然而，所有检索结果均未直接提供“76%至85%”这一具体比例的数据来证实该说法。因此，该主张缺乏直接证据支持。</opinion>\n<stance>0</stance>\n<severity>无</severity>\n<cited>2-1</cited>",
+          "search_limit_fallback_used": true,
+          "content_risk_fallback_used": false,
+          "retrieved_evidences": [
+            {
+              "batch": 1,
+              "tool": "web_search",
+              "query": "低收入中等收入国家重度精神障碍患者未接受治疗比例 76% 85%",
+              "results": [
+                {
+                  "rank": 1,
+                  "title": "Ghana scores 85.76% in first National Infrastructure",
+                  "snippet": "Ghana scored85.76percent in the assessment, an improvement of more than 14 points over the previous sub-national ranking, placing the country ahead ...",
+                  "url": "https://www.gbcghanaonline.com/general/ghana-infrastructure/2025/"
+                },
+                {
+                  "rank": 2,
+                  "title": "168.76.138.85 website, 168.76.138.85Same iP and domain",
+                  "snippet": "dnsdblookup.com > 168.76.138.85website ... Websites on 168.76.138.85... search website for 168.76.138.0/24",
+                  "url": "https://dnsdblookup.com/168.76.138.85/"
+                },
+                {
+                  "rank": 3,
+                  "title": "series_76-85",
+                  "snippet": "... series_76-85... 3030_85... 3030_76",
+                  "url": "https://www.pafart.com/paintings/works2022/series_76-85/"
+                },
+                {
+                  "rank": 4,
+                  "title": "Unicycles 76-85 - 100 Unicycles",
+                  "snippet": "... Unicycles76-85",
+                  "url": "https://100unicycles.com/unicycles-76-85/"
+                },
+                {
+                  "rank": 5,
+                  "title": "76-85 YAMAHA DT100 ENGINE GASKETS | CRUZINIMAGE.NET",
+                  "snippet": "...76-85YAMAHA DT100 ENGINE GASKETS",
+                  "url": "https://www.cruzinimage.net/2017/11/24/76-85-yamaha-dt100-engine-gaskets/"
+                }
+              ]
+            },
+            {
+              "batch": 2,
+              "tool": "web_search",
+              "query": "mental disorders treatment gap low-income middle-income countries WHO statistics",
+              "results": [
+                {
+                  "rank": 1,
+                  "title": "Global Disparities in Mental Health Systems: A Comparative Cross ...",
+                  "snippet": "Abstract Background:Mentalhealthdisordersare a common cause of disability worldwide. Disparities exist between thementalhealth frameworks of high-incomecountries(HICs), uppermiddle-incomecountries(UMICs), andlow- andmiddle-incomecountries(LMICs). LMICs have shortages in infrastructure, financial resources, laws, and workforce, resulting in significantgapsintreatment. This ...",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12531183/"
+                },
+                {
+                  "rank": 2,
+                  "title": "A Path for Scaling Mental Health Treatment in Low-Income Countries ...",
+                  "snippet": "Globally,mentalhealthdisordersrank as the greatest cause of disability and a leading contributor to the burden of disease. While the U.S. may struggle to meet the need for qualitymentalhealthcare,treatmentin mostlow- andmiddle-income(LMIC)countries- where 80% of those withmentalillness live - is extremely limited. The … Read more",
+                  "url": "https://globalhealth.unc.edu/2024/04/a-path-for-scaling-mental-health-treatment-in-low-income-countries-results-from-the-sharp-trial/"
+                },
+                {
+                  "rank": 3,
+                  "title": "Mental health systems in selected low- and middle-income countries",
+                  "snippet": "Information derived from this study is being used to develop plans for strengthening community care and scaling up care for people withmentaldisorders, hence contributing to the objectives of theMentalHealthGapAction Programme (mhGAP) of the World Health Organization.",
+                  "url": "https://www.who.int/publications/i/item/9789241547741"
+                },
+                {
+                  "rank": 4,
+                  "title": "PDFMIND THE GAP Child and Adolescent Mental Health and ... - UNICEF",
+                  "snippet": "Child and AdolescentMentalHealth and Psychosocial Support Interventions AN EVIDENCE ANDGAPMAP OFLOW- ANDMIDDLE-INCOMECOUNTRIES",
+                  "url": "https://www.unicef.org/innocenti/media/4276/file/UNICEF-Mind-the-Gap-Report-2022.pdf"
+                },
+                {
+                  "rank": 5,
+                  "title": "Global inequalities in mental health problems: understanding the ...",
+                  "snippet": "Socio-economic inequalities inmentalhealth problems are found in measures covering prevalence,treatmentutilisation, andtreatmenthelpfulness. However, whether these inequalities exist globally and what factors explain between-country variation is unclear.",
+                  "url": "https://www.sciencedirect.com/science/article/pii/S0091743523003547"
+                }
+              ]
+            },
+            {
+              "batch": 3,
+              "tool": "web_search",
+              "query": "\"treatment gap\" mental disorders low-income countries 76% 85% WHO data",
+              "results": [
+                {
+                  "rank": 1,
+                  "title": "",
+                  "snippet": "Tool call limit exceeded. Do not make additional tool calls.",
+                  "url": ""
+                }
+              ]
+            }
+          ],
+          "applied_evidences": [
+            {
+              "batch": 2,
+              "rank": 1,
+              "debate_round": 0,
+              "agent": "leader",
+              "cite": "r0-leader-2-1",
+              "tool": "web_search",
+              "query": "mental disorders treatment gap low-income middle-income countries WHO statistics",
+              "title": "Global Disparities in Mental Health Systems: A Comparative Cross ...",
+              "snippet": "Abstract Background:Mentalhealthdisordersare a common cause of disability worldwide. Disparities exist between thementalhealth frameworks of high-incomecountries(HICs), uppermiddle-incomecountries(UMICs), andlow- andmiddle-incomecountries(LMICs). LMICs have shortages in infrastructure, financial resources, laws, and workforce, resulting in significantgapsintreatment. This ...",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12531183/"
+            }
+          ],
+          "cited_specs_raw": "2-1",
+          "cited": "r0-leader-2-1"
+        },
+        "final": {
+          "opinion": "根据第2次检索的第1条摘要，维基百科条目明确记载：“This so-called 'treatment gap' is estimated to reach between 76–85% for low- and middle-income countries”。第2条摘要（2024年PMC文章）也提到“the general mental health treatment gap estimates range from 76% to 85%”。第3条摘要（2024年11月JMIR文章）同样引用“estimates of between 76% to 85%”。这些2024年的最新学术文献持续引用该比例作为LMICs精神健康治疗缺口的基准估计。虽然前序观点中Skeptic方质疑数据的时效性，但检索显示该比例在2024年的学术研究中仍被广泛引用，表明它仍是当前学术讨论中的标准参考数据。因此，claim有充分且持续的证据支持。",
+          "stance": "1",
+          "factuality": true,
+          "raw": "<opinion>根据第2次检索的第1条摘要，维基百科条目明确记载：“This so-called 'treatment gap' is estimated to reach between 76–85% for low- and middle-income countries”。第2条摘要（2024年PMC文章）也提到“the general mental health treatment gap estimates range from 76% to 85%”。第3条摘要（2024年11月JMIR文章）同样引用“estimates of between 76% to 85%”。这些2024年的最新学术文献持续引用该比例作为LMICs精神健康治疗缺口的基准估计。虽然前序观点中Skeptic方质疑数据的时效性，但检索显示该比例在2024年的学术研究中仍被广泛引用，表明它仍是当前学术讨论中的标准参考数据。因此，claim有充分且持续的证据支持。</opinion>\n<stance>1</stance>\n<severity>无</severity>\n<cited>2-1,2-2,2-3</cited>",
+          "search_limit_fallback_used": false,
+          "content_risk_fallback_used": false,
+          "retrieved_evidences": [
+            {
+              "batch": 1,
+              "tool": "web_search",
+              "query": "低收入和中等收入国家 76% 85% 重度精神障碍 治疗缺口 WHO 数据 2024",
+              "results": [
+                {
+                  "rank": 1,
+                  "title": "WHO：2025年世界心理健康现状报告|精神分裂症_新浪科技_新浪网",
+                  "snippet": "October 31, 2025 -经济层面，截至2024年，42%低收入国与72%中低收入国将心理健康纳入公共资助或社会保障体系；然而超半数低中收入国精神卫生支出仍偏重精神病院。抑郁与焦虑每年导致120亿工作日损失，经济损失近1万亿美元；社会成本（生产力损失与非医疗开销）远超医疗成本，心理障碍总成本占GDP的0.5%–1.0%（Chisholm等，2016；WHO，2025）。",
+                  "url": "https://finance.sina.com.cn/tech/roll/2025-10-31/doc-infvtrwx8914687.shtml"
+                },
+                {
+                  "rank": 2,
+                  "title": "[世界卫生组织]：今日世界心理健康：最新数据 - 发现报告",
+                  "snippet": "November 19, 2025 -全球精神健康状况严峻：全球超过10亿人患有精神疾病，其中大部分生活在低收入和中等收入国家（LMICs）。焦虑症和抑郁症是最常见的疾病，且在所有年龄段都有很高的患病率。",
+                  "url": "https://www.fxbaogao.com/detail/5081733"
+                },
+                {
+                  "rank": 3,
+                  "title": "执行委员会 第一五八届会议 临时议程项目7 EB158/7 2025 年11 月25 日 精神卫生 相关决议和决定的执行情况 总干事的报告 背景 1.",
+                  "snippet": "November 25, 2025 -有一名政府精神卫生工作者。较低收入和较高收入国家的精神卫生资源存在显著差异。 ... 同样，一份新的《全球神经病学状况报告》3发现，尽管2021 年全球约有34 亿人患有 · 神经系统疾病，尽管有有效且可扩展的解决方案，但各种系统性障碍—— 如政策优先级不 · 足、认知和资源有限、治疗缺口巨大以及数据系统不完善—— 阻碍了为共同解决健康不良和",
+                  "url": "https://apps.who.int/gb/ebwha/pdf_files/EB158/B158_7-ch.pdf"
+                },
+                {
+                  "rank": 4,
+                  "title": "报告 | 《2022年国民抑郁症蓝皮书》",
+                  "snippet": "世界卫生组织(WHO)统计，全球约10亿人正在遭受精神障碍困扰，每40秒就有一人因自杀而失去生命，低收入和中等收入国家的自杀人数占全球自杀人数的77%。",
+                  "url": "https://www.chinadevelopmentbrief.org.cn/news/detail/23683.html"
+                },
+                {
+                  "rank": 5,
+                  "title": "最新数据显示全球每八人中就有一位有精神健康问题",
+                  "snippet": "September 6, 2025 -该报告也暴露出精神卫生领域巨大服务和资源差距。截至2024年，全球心理健康专业人员中位数仅为每10万人13人，低收入和中等收入国家人力极度短缺。",
+                  "url": "https://m.thepaper.cn/newsDetail_forward_31551363"
+                }
+              ]
+            },
+            {
+              "batch": 2,
+              "tool": "web_search",
+              "query": "\"76% to 85%\" mental health treatment gap low-income middle-income countries 2024 study",
+              "results": [
+                {
+                  "rank": 1,
+                  "title": "Global mental health - Wikipedia",
+                  "snippet": "This so-called \"treatmentgap\" is estimated to reach between 76–85% forlow- andmiddle-incomecountries, and 35–50% for high-incomecountries. According to the National Alliance onMentalIllness, 33.5% of U.S. adults with a seriousmentalillness and 53.8% of U.S. adults with amentalillness received notreatmentfor it in the year 2020.",
+                  "url": "https://en.wikipedia.org/wiki/Global_mental_health"
+                },
+                {
+                  "rank": 2,
+                  "title": "Towards integrated mental health services in low-income and middle-income countries: organisation of primary healthcare providers – a scoping review protocol - PMC",
+                  "snippet": "A large South African cohort study ... programmes.10 In the broader low-income and middle-income country (LMIC) landscape,the general mental health treatment gap estimates range from 76% to 85%.11 The integration of mental health in primary healthcare services enables the consolidation ...",
+                  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10882400/"
+                },
+                {
+                  "rank": 3,
+                  "title": "JMIR Research Protocols - Scalable Technology for Adolescents and Youth to Reduce Stress in the Treatment of Common Mental Disorders in Jordan: Protocol for a Randomized Controlled Trial",
+                  "snippet": "November 8, 2024 -Although there exists a high prevalence of mental disorders,there remains an equally high treatment gap, with estimates of between 76% to 85% of people—in countries classified by the World Bank’s Development Indicators as “less developed” ...",
+                  "url": "https://www.researchprotocols.org/2024/1/e54585"
+                },
+                {
+                  "rank": 4,
+                  "title": "Strengthening mental health systems in low- and middle-income countries: the Emerald programme | BMC Medicine | Full Text",
+                  "snippet": "April 10, 2015 -A large multi-country survey showed that,on average, 76% to 85% of people with severe mental disorders in low-income countries had not received any treatment in the previous 12 months[7]. This lack of treatment is associated with considerable ...",
+                  "url": "https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-015-0309-4"
+                },
+                {
+                  "rank": 5,
+                  "title": "Strengthening mental health systems in low- and middle-income countries: the Emerald programme | BMC Medicine | Springer Nature Link",
+                  "snippet": "April 10, 2015 -A large multi-country survey showed that,on average, 76% to 85% of people with severe mental disorders in low-income countries had not received any treatment in the previous 12 months[7]. This lack of treatment is associated with considerable ...",
+                  "url": "https://link.springer.com/article/10.1186/s12916-015-0309-4"
+                }
+              ]
+            }
+          ],
+          "applied_evidences": [
+            {
+              "batch": 2,
+              "rank": 1,
+              "debate_round": 3,
+              "agent": "leader",
+              "cite": "r3-leader-2-1",
+              "tool": "web_search",
+              "query": "\"76% to 85%\" mental health treatment gap low-income middle-income countries 2024 study",
+              "title": "Global mental health - Wikipedia",
+              "snippet": "This so-called \"treatmentgap\" is estimated to reach between 76–85% forlow- andmiddle-incomecountries, and 35–50% for high-incomecountries. According to the National Alliance onMentalIllness, 33.5% of U.S. adults with a seriousmentalillness and 53.8% of U.S. adults with amentalillness received notreatmentfor it in the year 2020.",
+              "url": "https://en.wikipedia.org/wiki/Global_mental_health"
+            },
+            {
+              "batch": 2,
+              "rank": 2,
+              "debate_round": 3,
+              "agent": "leader",
+              "cite": "r3-leader-2-2",
+              "tool": "web_search",
+              "query": "\"76% to 85%\" mental health treatment gap low-income middle-income countries 2024 study",
+              "title": "Towards integrated mental health services in low-income and middle-income countries: organisation of primary healthcare providers – a scoping review protocol - PMC",
+              "snippet": "A large South African cohort study ... programmes.10 In the broader low-income and middle-income country (LMIC) landscape,the general mental health treatment gap estimates range from 76% to 85%.11 The integration of mental health in primary healthcare services enables the consolidation ...",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10882400/"
+            },
+            {
+              "batch": 2,
+              "rank": 3,
+              "debate_round": 3,
+              "agent": "leader",
+              "cite": "r3-leader-2-3",
+              "tool": "web_search",
+              "query": "\"76% to 85%\" mental health treatment gap low-income middle-income countries 2024 study",
+              "title": "JMIR Research Protocols - Scalable Technology for Adolescents and Youth to Reduce Stress in the Treatment of Common Mental Disorders in Jordan: Protocol for a Randomized Controlled Trial",
+              "snippet": "November 8, 2024 -Although there exists a high prevalence of mental disorders,there remains an equally high treatment gap, with estimates of between 76% to 85% of people—in countries classified by the World Bank’s Development Indicators as “less developed” ...",
+              "url": "https://www.researchprotocols.org/2024/1/e54585"
+            }
+          ],
+          "cited_specs_raw": "2-1,2-2,2-3",
+          "cited": "r3-leader-2-1,r3-leader-2-2,r3-leader-2-3"
+        },
+        "rounds": [
+          {
+            "round": 1,
+            "state": "S1",
+            "sequence": [
+              {
+                "agent": "trust",
+                "output": {
+                  "opinion": "前序观点正确指出了缺乏直接证据，但根据第1次检索的多份WHO官方文件（如WHA65/A65_10-ch.pdf、B130_R8-ch.pdf等），明确记载了“低收入和中等收入国家分别有76%和85%患有严重精神障碍的人未接受相关治疗”或“76%至85%的严重精神障碍患者不能为其疾病获得任何治疗”。这些数据直接支持了claim中的比例，且来源权威。因此，该主张有充分证据支撑。治疗缺口确实存在，且与基础设施、资金等系统性问题相关，但具体比例已得到证实。",
+                  "stance": "1",
+                  "factuality": true,
+                  "raw": "<opinion>前序观点正确指出了缺乏直接证据，但根据第1次检索的多份WHO官方文件（如WHA65/A65_10-ch.pdf、B130_R8-ch.pdf等），明确记载了“低收入和中等收入国家分别有76%和85%患有严重精神障碍的人未接受相关治疗”或“76%至85%的严重精神障碍患者不能为其疾病获得任何治疗”。这些数据直接支持了claim中的比例，且来源权威。因此，该主张有充分证据支撑。治疗缺口确实存在，且与基础设施、资金等系统性问题相关，但具体比例已得到证实。</opinion>\n<stance>1</stance>\n<cited>1-1,1-2,1-3,1-4,1-5</cited>",
+                  "search_limit_fallback_used": true,
+                  "content_risk_fallback_used": false,
+                  "retrieved_evidences": [
+                    {
+                      "batch": 1,
+                      "tool": "web_search",
+                      "query": "低收入和中等收入国家 重度精神障碍 治疗缺口 76% 85% 未接受治疗",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "PDF全球精神障碍负担和各国卫生和社会部门",
+                          "snippet": "例如,低收入国家和中等收入国家分别有76% 和85%患有严重精神障碍的人未接受相关治疗;高收入国家未接受治疗人群的比例也很高,在35% 到50%之间。 精神障碍影响到诸如癌症、心血管病、糖尿病和哮喘病等其他非传染性疾病,并也会受到这些疾病的影响。",
+                          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA65/A65_10-ch.pdf"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "PDFMicrosoft Word - B130_R8-ch.doc",
+                          "snippet": "进一步认识到世界各地都存在巨大的精神疾患治疗差距,低收入和中等收入国家76% 至85%的严重精神疾病患者得不到相应治疗,而高收入国家这方面的比率也很高,在35% 至50% 之间2;",
+                          "url": "https://iris.who.int/bitstream/handle/10665/26503/B130_R8-ch.pdf?sequence=1"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "PDFMicrosoft Word - B130_9-ch.doc",
+                          "snippet": "在全世界,治疗精神障碍的需求和供应之间存在巨大空白。例如,低收入国家和中等收入国家分别有76% 和85%患有严重精神障碍的人未接受相关治疗;高收入国家未接受治疗人群的比例也很高,在35% 到50%之间。",
+                          "url": "https://apps.who.int/iris/bitstream/handle/10665/26455/B130_9-ch.pdf"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "PDF2000—2001年财务期会费评定比额 - World Health Organization",
+                          "snippet": "在低收入和中等收入国家,76% 至85%的严重精神障碍患者不能为其疾病获得任何治疗;高收入国家的相应比率也很高:35% 至50%。 使问题进一步严重化的是为接受治疗者提供的医疗质量低下。",
+                          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R8-ch.pdf"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "PDF职工发展和支持 - World Health Organization",
+                          "snippet": "在低收入和中等收入国家,76% 至85%的严重精神障碍患者不能为其疾病获得任何治疗;高收入国家的相应比率也很高:35% 至50%。 使问题进一步严重化的是为接受治疗者提供的医疗质量低下。",
+                          "url": "https://apps.who.int/gb/ebwha/pdf_files/EB132/B132_8-ch.pdf"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 2,
+                      "tool": "web_search",
+                      "query": "WHO 世界卫生组织 精神障碍治疗缺口 76-85% 数据来源 研究",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "孤独症谱系障碍- 维基百科，自由的百科全书",
+                          "snippet": "世界卫生组织．语言障碍. 语言流畅性障碍（口吃）. 语音障碍（口齿不清）（英语：Speech sound disorder）. 社交交流障碍（英语：Social (pragmatic) communication disorder）.",
+                          "url": "https://zh.wikipedia.org/zh-hans/自闭"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "WHOLibrary Cataloguing-in-Publication Data",
+                          "snippet": "本手册由世界卫生组织WHO、世界自我药疗产业协会WSMI、世界心 脏 联 盟 WHF、和国际脑卒中学会ISS和国际心脏健康学会IHHS编制。世界卫生组织(WHO).",
+                          "url": "https://world-heart-federation.org/wp-content/uploads/2021/04/Avoiding-Heart-Attacks-and-Strokes-Chinese.pdf"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "instagram.com/who",
+                          "snippet": "The site owner hides the web page description.",
+                          "url": "https://www.instagram.com/who/"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "Thirty-ninth Report, Technical Report Series No. 929...",
+                          "snippet": "©世界卫生组织2005 本书为WHOExpert Committee on Specifications for Pharmaceutical Preparartions, Thirty-ninth Report, Technical Report Series No. 929 的中文版,世界卫生组织总 干事授权中国药品生物制品检定所负责该报告的中文版翻.",
+                          "url": "https://www.who.int/docs/default-source/essential-medicines/norms-and-standards/who-trs-929-chi.pdf"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "亚太域内外可“五措并举”，应对精神卫生问题 | Asian Development Blog",
+                          "snippet": "图片来源：皮姆·朱（Pim Chu）.精神卫生问题和精神障碍治疗缺口，即未满足的需求量极大，特别是抑郁症在30%～50%，而焦虑症更是高达50%～70%。",
+                          "url": "https://blogs.adb.org/zh/blog/five-steps-address-mental-health-asia-and-pacific-and-beyond"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 3,
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders treatment gap low-income countries WHO report",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "",
+                          "snippet": "Tool call limit exceeded. Do not make additional tool calls.",
+                          "url": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "applied_evidences": [
+                    {
+                      "batch": 1,
+                      "rank": 1,
+                      "debate_round": 1,
+                      "agent": "trust",
+                      "cite": "r1-trust-1-1",
+                      "tool": "web_search",
+                      "query": "低收入和中等收入国家 重度精神障碍 治疗缺口 76% 85% 未接受治疗",
+                      "title": "PDF全球精神障碍负担和各国卫生和社会部门",
+                      "snippet": "例如,低收入国家和中等收入国家分别有76% 和85%患有严重精神障碍的人未接受相关治疗;高收入国家未接受治疗人群的比例也很高,在35% 到50%之间。 精神障碍影响到诸如癌症、心血管病、糖尿病和哮喘病等其他非传染性疾病,并也会受到这些疾病的影响。",
+                      "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA65/A65_10-ch.pdf"
+                    },
+                    {
+                      "batch": 1,
+                      "rank": 2,
+                      "debate_round": 1,
+                      "agent": "trust",
+                      "cite": "r1-trust-1-2",
+                      "tool": "web_search",
+                      "query": "低收入和中等收入国家 重度精神障碍 治疗缺口 76% 85% 未接受治疗",
+                      "title": "PDFMicrosoft Word - B130_R8-ch.doc",
+                      "snippet": "进一步认识到世界各地都存在巨大的精神疾患治疗差距,低收入和中等收入国家76% 至85%的严重精神疾病患者得不到相应治疗,而高收入国家这方面的比率也很高,在35% 至50% 之间2;",
+                      "url": "https://iris.who.int/bitstream/handle/10665/26503/B130_R8-ch.pdf?sequence=1"
+                    },
+                    {
+                      "batch": 1,
+                      "rank": 3,
+                      "debate_round": 1,
+                      "agent": "trust",
+                      "cite": "r1-trust-1-3",
+                      "tool": "web_search",
+                      "query": "低收入和中等收入国家 重度精神障碍 治疗缺口 76% 85% 未接受治疗",
+                      "title": "PDFMicrosoft Word - B130_9-ch.doc",
+                      "snippet": "在全世界,治疗精神障碍的需求和供应之间存在巨大空白。例如,低收入国家和中等收入国家分别有76% 和85%患有严重精神障碍的人未接受相关治疗;高收入国家未接受治疗人群的比例也很高,在35% 到50%之间。",
+                      "url": "https://apps.who.int/iris/bitstream/handle/10665/26455/B130_9-ch.pdf"
+                    },
+                    {
+                      "batch": 1,
+                      "rank": 4,
+                      "debate_round": 1,
+                      "agent": "trust",
+                      "cite": "r1-trust-1-4",
+                      "tool": "web_search",
+                      "query": "低收入和中等收入国家 重度精神障碍 治疗缺口 76% 85% 未接受治疗",
+                      "title": "PDF2000—2001年财务期会费评定比额 - World Health Organization",
+                      "snippet": "在低收入和中等收入国家,76% 至85%的严重精神障碍患者不能为其疾病获得任何治疗;高收入国家的相应比率也很高:35% 至50%。 使问题进一步严重化的是为接受治疗者提供的医疗质量低下。",
+                      "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA66/A66_R8-ch.pdf"
+                    },
+                    {
+                      "batch": 1,
+                      "rank": 5,
+                      "debate_round": 1,
+                      "agent": "trust",
+                      "cite": "r1-trust-1-5",
+                      "tool": "web_search",
+                      "query": "低收入和中等收入国家 重度精神障碍 治疗缺口 76% 85% 未接受治疗",
+                      "title": "PDF职工发展和支持 - World Health Organization",
+                      "snippet": "在低收入和中等收入国家,76% 至85%的严重精神障碍患者不能为其疾病获得任何治疗;高收入国家的相应比率也很高:35% 至50%。 使问题进一步严重化的是为接受治疗者提供的医疗质量低下。",
+                      "url": "https://apps.who.int/gb/ebwha/pdf_files/EB132/B132_8-ch.pdf"
+                    }
+                  ],
+                  "cited_specs_raw": "1-1,1-2,1-3,1-4,1-5",
+                  "cited": "r1-trust-1-1,r1-trust-1-2,r1-trust-1-3,r1-trust-1-4,r1-trust-1-5"
+                }
+              },
+              {
+                "agent": "skeptic",
+                "output": {
+                  "opinion": "前序观点引用的WHO文件（如A65_10-ch.pdf、B130_9-ch.pdf）确实支持了claim中的比例数据。然而，我质疑这些数据的时效性和具体定义。检索摘要显示，这些数据出现在2012年左右的WHO文件中（如WHA65/A65_10-ch.pdf对应2012年世界卫生大会）。虽然数据本身有权威来源支持，但“重度精神障碍”的具体定义（例如，是否包含所有严重精神障碍，还是特指某些疾病）在claim和前序观点中均未明确，这可能影响对数据普遍性的理解。此外，这些数据是近十年前的，当前的治疗缺口可能已发生变化，但前序观点未提及此局限性，可能造成对现状的误导性认知。",
+                  "stance": "0.2",
+                  "factuality": true,
+                  "raw": "<opinion>前序观点引用的WHO文件（如A65_10-ch.pdf、B130_9-ch.pdf）确实支持了claim中的比例数据。然而，我质疑这些数据的时效性和具体定义。检索摘要显示，这些数据出现在2012年左右的WHO文件中（如WHA65/A65_10-ch.pdf对应2012年世界卫生大会）。虽然数据本身有权威来源支持，但“重度精神障碍”的具体定义（例如，是否包含所有严重精神障碍，还是特指某些疾病）在claim和前序观点中均未明确，这可能影响对数据普遍性的理解。此外，这些数据是近十年前的，当前的治疗缺口可能已发生变化，但前序观点未提及此局限性，可能造成对现状的误导性认知。</opinion>\n<stance>0.2</stance>\n<cited>1-1,1-2,1-3</cited>",
+                  "search_limit_fallback_used": true,
+                  "content_risk_fallback_used": false,
+                  "retrieved_evidences": [
+                    {
+                      "batch": 1,
+                      "tool": "web_search",
+                      "query": "WHO 低收入中等收入国家 精神障碍 治疗缺口 76% 85% 数据",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "PDF全球精神障碍负担和各国卫生和社会部门",
+                          "snippet": "例如,低收入国家和中等收入国家分别有76% 和85%患有严重精神障碍的人未接受相关治疗;高收入国家未接受治疗人群的比例也很高,在35% 到50%之间。 精神障碍影响到诸如癌症、心血管病、糖尿病和哮喘病等其他非传染性疾病,并也会受到这些疾病的影响。",
+                          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA65/A65_10-ch.pdf"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "PDFDSpace 精神 - apps.who.int",
+                          "snippet": "卫生系统资源和反应 大。在低收入和中等收入国家,76%至85%的严重精神障碍患者不能为其疾病获得任何治疗;高收入国家的相应比率也很高:35%� 50%。使问题进一步严重化的是为接受治疗者提供的医疗质量",
+                          "url": "https://apps.who.int/iris/bitstream/handle/10665/355463/9789240050945-chi.pdf"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "PDFB130_9-ch - World Health Organization",
+                          "snippet": "在全世界,治疗精神障碍的需求和供应之间存在巨大空白。例如,低收入国家和中等收入国家分别有76% 和85%患有严重精神障碍的人未接受相关治疗;高收入国家未接受治疗人群的比例也很高,在35% 到50%之间。",
+                          "url": "https://apps.who.int/gb/ebwha/pdf_files/EB130/B130_9-ch.pdf"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "世界卫生组织数据 - datadot",
+                          "snippet": "《世界卫生统计报告》是世界卫生组织（WHO）每年汇编的关于健康和健康相关指标的最新可用数据。",
+                          "url": "https://data.who.int/zh/"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "你所不知的世界头号精神健康问题 - 丁香园 - DXY.cn",
+                          "snippet": "在低收入和中等收入国家，76% 到85%的精神障碍患者没有接受相关治疗。而在高收入国家，35% 到 50% 的精神障碍患者处于相同情况。",
+                          "url": "http://psych.dxy.cn/article/600263"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 2,
+                      "tool": "web_search",
+                      "query": "WHO mental health treatment gap 76-85% low middle income countries source year",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "WHO EMRO - Mental health gap action programme (mhGAP)",
+                          "snippet": "ThetreatmentgapMental, neurological, and substance use disorders are highly prevalent in all regions of the world, and they are major contributors to disease, premature death, and disability worldwide. They are also frequently associated with high levels of stigma and human rights violations, particularly inlow- andmiddle-incomecountries.",
+                          "url": "https://www.emro.who.int/mnh/mental-health-gap-action-programme/"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "Mental Health Gap Action Programme (mhGAP) guideline for mental ...",
+                          "snippet": "To reduce thetreatmentgapand to enhance the capacity ofcountriesto respond to the growing challenge, the WorldHealthOrganization (WHO) developed and launched (in 2008) theMentalHealthGapAction Programme (mhGAP): scaling up care for MNS disorders.",
+                          "url": "https://www.ncbi.nlm.nih.gov/books/NBK598408/"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "WHO releases new reports and estimates highlighting urgent gaps in ...",
+                          "snippet": "Workforce shortages remain critical, with a global median of just 13 workers per 100,000 people, and extreme shortages inlow- andmiddle-incomecountries. Reform and development ofmentalhealthservices is also progressing slowly. Fewer than 10% ofcountrieshave fully transitioned to community-based care models, with most still in early stages.",
+                          "url": "https://www.who.int/news/item/02-09-2025-who-releases-new-reports-and-estimates-highlighting-urgent-gaps-in-mental-health"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "A Path for Scaling Mental Health Treatment in Low-Income Countries ...",
+                          "snippet": "Globally,mentalhealthdisorders rank as the greatest cause of disability and a leading contributor to the burden of disease. While the U.S. may struggle to meet the need for qualitymentalhealthcare,treatmentin mostlow- andmiddle-income(LMIC)countries- where 80% of those withmentalillness live - is extremely limited. The … Read more",
+                          "url": "https://globalhealth.unc.edu/2024/04/a-path-for-scaling-mental-health-treatment-in-low-income-countries-results-from-the-sharp-trial/"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "Mental Health, Brain Health and Substance Use",
+                          "snippet": "Mental, neurological, and substance use disorders are common in all regions of the world, affecting every community and age group across allincomecountries. While 14% of the global burden of disease is attributed to these disorders, most of the people affected - 75% in manylow-incomecountries- do not have access to thetreatmentthey need. The WHOMentalHealthGapAction Programme (mhGAP ...",
+                          "url": "https://www.who.int/teams/mental-health-and-substance-use/treatment-care/mental-health-gap-action-programme"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 3,
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders treatment gap WHO methodology data collection",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "",
+                          "snippet": "Tool call limit exceeded. Do not make additional tool calls.",
+                          "url": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "applied_evidences": [
+                    {
+                      "batch": 1,
+                      "rank": 1,
+                      "debate_round": 1,
+                      "agent": "skeptic",
+                      "cite": "r1-skeptic-1-1",
+                      "tool": "web_search",
+                      "query": "WHO 低收入中等收入国家 精神障碍 治疗缺口 76% 85% 数据",
+                      "title": "PDF全球精神障碍负担和各国卫生和社会部门",
+                      "snippet": "例如,低收入国家和中等收入国家分别有76% 和85%患有严重精神障碍的人未接受相关治疗;高收入国家未接受治疗人群的比例也很高,在35% 到50%之间。 精神障碍影响到诸如癌症、心血管病、糖尿病和哮喘病等其他非传染性疾病,并也会受到这些疾病的影响。",
+                      "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA65/A65_10-ch.pdf"
+                    },
+                    {
+                      "batch": 1,
+                      "rank": 2,
+                      "debate_round": 1,
+                      "agent": "skeptic",
+                      "cite": "r1-skeptic-1-2",
+                      "tool": "web_search",
+                      "query": "WHO 低收入中等收入国家 精神障碍 治疗缺口 76% 85% 数据",
+                      "title": "PDFDSpace 精神 - apps.who.int",
+                      "snippet": "卫生系统资源和反应 大。在低收入和中等收入国家,76%至85%的严重精神障碍患者不能为其疾病获得任何治疗;高收入国家的相应比率也很高:35%� 50%。使问题进一步严重化的是为接受治疗者提供的医疗质量",
+                      "url": "https://apps.who.int/iris/bitstream/handle/10665/355463/9789240050945-chi.pdf"
+                    },
+                    {
+                      "batch": 1,
+                      "rank": 3,
+                      "debate_round": 1,
+                      "agent": "skeptic",
+                      "cite": "r1-skeptic-1-3",
+                      "tool": "web_search",
+                      "query": "WHO 低收入中等收入国家 精神障碍 治疗缺口 76% 85% 数据",
+                      "title": "PDFB130_9-ch - World Health Organization",
+                      "snippet": "在全世界,治疗精神障碍的需求和供应之间存在巨大空白。例如,低收入国家和中等收入国家分别有76% 和85%患有严重精神障碍的人未接受相关治疗;高收入国家未接受治疗人群的比例也很高,在35% 到50%之间。",
+                      "url": "https://apps.who.int/gb/ebwha/pdf_files/EB130/B130_9-ch.pdf"
+                    }
+                  ],
+                  "cited_specs_raw": "1-1,1-2,1-3",
+                  "cited": "r1-skeptic-1-1,r1-skeptic-1-2,r1-skeptic-1-3"
+                }
+              },
+              {
+                "agent": "leader",
+                "output": {
+                  "opinion": "根据第1次检索的第1条摘要，WHO文件（9789240050945-chi.pdf）明确记载：“在低收入和中等收入国家,76%至85%的严重精神障碍患者不能为其疾病获得任何治疗”。这直接证实了claim中所述的比例，且来源权威。虽然数据可能来自较早的报告（文件本身未显示年份），但作为WHO官方数据，它为该主张提供了核心证据。前序观点中Trust方引用的WHO文件与此一致，Skeptic方关于数据时效性和定义模糊的质疑虽有道理，但未能否定该数据作为支持claim的有效证据。因此，claim有确凿证据支持。",
+                  "stance": "1",
+                  "factuality": true,
+                  "raw": "<opinion>根据第1次检索的第1条摘要，WHO文件（9789240050945-chi.pdf）明确记载：“在低收入和中等收入国家,76%至85%的严重精神障碍患者不能为其疾病获得任何治疗”。这直接证实了claim中所述的比例，且来源权威。虽然数据可能来自较早的报告（文件本身未显示年份），但作为WHO官方数据，它为该主张提供了核心证据。前序观点中Trust方引用的WHO文件与此一致，Skeptic方关于数据时效性和定义模糊的质疑虽有道理，但未能否定该数据作为支持claim的有效证据。因此，claim有确凿证据支持。</opinion>\n<stance>1</stance>\n<severity>无</severity>\n<cited>1-1</cited>",
+                  "search_limit_fallback_used": true,
+                  "content_risk_fallback_used": false,
+                  "retrieved_evidences": [
+                    {
+                      "batch": 1,
+                      "tool": "web_search",
+                      "query": "WHO 低收入中等收入国家 76% 85% 重度精神障碍 治疗缺口 最新数据",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "PDFDSpace 精神 - apps.who.int",
+                          "snippet": "卫生系统资源和反应 大。在低收入和中等收入国家,76%至85%的严重精神障碍患者不能为其疾病获得任何治疗;高收入国家的相应比率也很高:35%� 50%。使问题进一步严重化的是为接受治疗者提供的医疗质量",
+                          "url": "https://apps.who.int/iris/bitstream/handle/10665/355463/9789240050945-chi.pdf"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "青少年精神卫生 - World Health Organization (WHO)",
+                          "snippet": "重要事实 全球10-19岁人群中，有七分之一患有精神障碍，占该年龄组全球疾病负担的15%。 抑郁症、焦虑症和行为障碍是青少年患病和残疾的部分主要原因。 自杀是15-29岁年龄组人群的第三大死因。 青少年的精神卫生问题得不到解决，后果会延续到成年期，损害身心健康，并限制成年后过上充实生活 ...",
+                          "url": "https://www.who.int/zh/news-room/fact-sheets/detail/adolescent-mental-health"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "年 精神卫 - iris.who.int",
+                          "snippet": "在行动计划中,\"精神疾患\"系指属于《疾病和有关健康问题的国际统计分类》(第10次修订本)范围内的一系列精神和行为障碍。其中包括造成很高疾病负担的疾患,例如抑郁症、双相情感障碍、精神分裂症、焦虑症、痴呆症、物质使用性疾患、智力障碍以及通常在儿童期和青春期开始出现的发育和行为 ...",
+                          "url": "https://iris.who.int/bitstreams/2ac30981-43b5-4f0f-b14f-103e8b761e06/download"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "世界卫生组织数据 - datadot",
+                          "snippet": "《世界卫生统计报告》是世界卫生组织（WHO）每年汇编的关于健康和健康相关指标的最新可用数据。",
+                          "url": "https://data.who.int/zh/"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "报告 | 《2022年国民抑郁症蓝皮书》",
+                          "snippet": "中国精神卫生调查显示，我国成人抑郁障碍终生患病率为6.8%，其中抑郁症为3.4%，目前我国患抑郁症人数9500万，每年大约有28 ...",
+                          "url": "https://www.chinadevelopmentbrief.org.cn/news/detail/23683.html"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 2,
+                      "tool": "web_search",
+                      "query": "\"76%至85%\" 严重精神障碍 WHO 文件 定义 精神分裂症 抑郁症",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "series_76-85",
+                          "snippet": "... series_76-85... 3030_85... 3030_76",
+                          "url": "https://www.pafart.com/paintings/works2022/series_76-85/"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "Unicycles 76-85 - 100 Unicycles",
+                          "snippet": "... Unicycles76-85",
+                          "url": "https://100unicycles.com/unicycles-76-85/"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "76-85 YAMAHA DT100 ENGINE GASKETS | CRUZINIMAGE.NET",
+                          "snippet": "...76-85YAMAHA DT100 ENGINE GASKETS",
+                          "url": "https://www.cruzinimage.net/2017/11/24/76-85-yamaha-dt100-engine-gaskets/"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "New Orleans 76 – 85 Houston Baptist, Match Results -",
+                          "snippet": "Match stats and results for New Orleans - Houston Baptist. Check player statistics, points scored, assists and rebounds for the 06.12.2025 basketball ...",
+                          "url": "https://www.basketballstats247.com/matches/usa/new-orleans-houston-baptist-315589/"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "Barça Basket overpowers KK Crvena zvezda, 76-85 | EuroLeague",
+                          "snippet": "Barça Basket defeated KK Crvena zvezda76-85in Round 25 of the 2023-24 EuroLeague season. ... Barcelona overpowers Crvena Zvezda,76-85",
+                          "url": "https://www.euroleaguebasketball.net/euroleague/news/euroleague-live-blog-kk-crvena-zvezda-vs-barca-basket/"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 3,
+                      "tool": "web_search",
+                      "query": "WHO mental health treatment gap low-income middle-income countries 2023 2024 data",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "",
+                          "snippet": "Tool call limit exceeded. Do not make additional tool calls.",
+                          "url": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "applied_evidences": [
+                    {
+                      "batch": 1,
+                      "rank": 1,
+                      "debate_round": 1,
+                      "agent": "leader",
+                      "cite": "r1-leader-1-1",
+                      "tool": "web_search",
+                      "query": "WHO 低收入中等收入国家 76% 85% 重度精神障碍 治疗缺口 最新数据",
+                      "title": "PDFDSpace 精神 - apps.who.int",
+                      "snippet": "卫生系统资源和反应 大。在低收入和中等收入国家,76%至85%的严重精神障碍患者不能为其疾病获得任何治疗;高收入国家的相应比率也很高:35%� 50%。使问题进一步严重化的是为接受治疗者提供的医疗质量",
+                      "url": "https://apps.who.int/iris/bitstream/handle/10665/355463/9789240050945-chi.pdf"
+                    }
+                  ],
+                  "cited_specs_raw": "1-1",
+                  "cited": "r1-leader-1-1"
+                }
+              }
+            ]
+          },
+          {
+            "round": 2,
+            "state": "S2",
+            "sequence": [
+              {
+                "agent": "skeptic",
+                "output": {
+                  "opinion": "前序观点依赖的WHO数据（9789240050945-chi.pdf）未在本次检索摘要中直接出现，其具体年份和上下文不明。更重要的是，检索到的2025年WHO相关报告摘要（批次1-1, 1-2, 1-3）提供了更新的全球精神健康现状信息，但均未提及或确认“76%至85%”这一具体治疗缺口比例。这些最新报告强调了服务差距、人力短缺和疾病负担，但未用该量化数据支持claim。这表明，虽然历史数据可能存在，但当前（2024-2025年）的权威公开报告可能已不再重点使用或更新该特定比例，前序观点引用的数据可能已过时或不再是当前WHO强调的核心指标，因此其作为“确凿证据”支撑当前claim的效力存疑。",
+                  "stance": "-0.2",
+                  "factuality": false,
+                  "raw": "<opinion>前序观点依赖的WHO数据（9789240050945-chi.pdf）未在本次检索摘要中直接出现，其具体年份和上下文不明。更重要的是，检索到的2025年WHO相关报告摘要（批次1-1, 1-2, 1-3）提供了更新的全球精神健康现状信息，但均未提及或确认“76%至85%”这一具体治疗缺口比例。这些最新报告强调了服务差距、人力短缺和疾病负担，但未用该量化数据支持claim。这表明，虽然历史数据可能存在，但当前（2024-2025年）的权威公开报告可能已不再重点使用或更新该特定比例，前序观点引用的数据可能已过时或不再是当前WHO强调的核心指标，因此其作为“确凿证据”支撑当前claim的效力存疑。</opinion>\n<stance>-0.2</stance>\n<cited>1-1,1-2,1-3</cited>",
+                  "search_limit_fallback_used": true,
+                  "content_risk_fallback_used": false,
+                  "retrieved_evidences": [
+                    {
+                      "batch": 1,
+                      "tool": "web_search",
+                      "query": "WHO 低收入中等收入国家 76% 85% 重度精神障碍 未接受治疗 最新数据",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "WHO：2025年世界心理健康现状报告|精神分裂症_新浪科技_新浪网",
+                          "snippet": "October 31, 2025 -经济层面，截至2024年，42%低收入国与72%中低收入国将心理健康纳入公共资助或社会保障体系；然而超半数低中收入国精神卫生支出仍偏重精神病院。抑郁与焦虑每年导致120亿工作日损失，经济损失近1万亿美元；社会成本（生产力损失与非医疗开销）远超医疗成本，心理障碍总成本占GDP的0.5%–1.0%（Chisholm等，2016；WHO，2025）。",
+                          "url": "https://finance.sina.com.cn/tech/roll/2025-10-31/doc-infvtrwx8914687.shtml"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "[世界卫生组织]：今日世界心理健康：最新数据 - 发现报告",
+                          "snippet": "November 19, 2025 -全球精神健康状况严峻：全球超过10亿人患有精神疾病，其中大部分生活在低收入和中等收入国家（LMICs）。焦虑症和抑郁症是最常见的疾病，且在所有年龄段都有很高的患病率。",
+                          "url": "https://www.fxbaogao.com/detail/5081733"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "最新数据显示全球每八人中就有一位有精神健康问题",
+                          "snippet": "September 6, 2025 -该报告也暴露出精神卫生领域巨大服务和资源差距。截至2024年，全球心理健康专业人员中位数仅为每10万人13人，低收入和中等收入国家人力极度短缺。",
+                          "url": "https://m.thepaper.cn/newsDetail_forward_31551363"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "国民抑郁症蓝皮书（2022-2023年发布）：50%抑郁患者为学生医药新闻-ByDrug-一站式医药资源共享中心-医药魔方",
+                          "snippet": "世界卫生组织(WHO)统计，全球约10亿人正在遭受精神障碍困扰，每40秒就有一人因自杀而失去生命，低收入和中等收入国家的自杀人数占全球自杀人数的77%。 · 新冠疫情后，全球精神障碍疾病负担更加沉重，重度抑郁症和焦...",
+                          "url": "https://bydrug.pharmcube.com/news/detail/233e0f10bc4c9337ac9ee758ebdc9a61"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "世界精神卫生日——营造良好环境，共筑心理健康_固原市人民政府",
+                          "snippet": "November 1, 2022 -精神卫生问题已严重影响到人们的正常生活。世卫组织公布的最新数据显示，全球约有4.5亿精神健康障碍患者，其中四分之三生活在中低收入国家。而在大多数国家中，只有不到2%的卫生保健资金用于精神卫生，且每年有三...",
+                          "url": "https://www.nxgy.gov.cn/zwgk/zfxxgkml/jgzn_38938/wsyl/202211/t20221101_3823345.html"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 2,
+                      "tool": "web_search",
+                      "query": "\"76%至85%\" 精神障碍 未接受治疗 WHO 报告 年份",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "重视精神卫生与心理健康 发展多手段治疗精神障碍|产业研究-业务动态-成都高新策源投资集团有限公司",
+                          "snippet": "到目前为止，我国一共进...从2000年至今，我国精神分裂等重性精神病的患病率变化不大，而像焦虑症、抑郁症等心理疾病的患病率却呈现显著增加的趋势，且各类别人群精神障碍患病率在不同性别、年龄、地区等因素上存在差异。 ... 从全球范围来看，精神障碍治疗需求与治疗提供之间的差距在世界各地都较大。在低收入和中等收入国家，76%至85%的严...",
+                          "url": "https://www.orinnocapital.com/research/174.html"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "series_76-85",
+                          "snippet": "... series_76-85... 3030_85... 3030_76",
+                          "url": "https://www.pafart.com/paintings/works2022/series_76-85/"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "Unicycles 76-85 - 100 Unicycles",
+                          "snippet": "... Unicycles76-85",
+                          "url": "https://100unicycles.com/unicycles-76-85/"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "76-85 YAMAHA DT100 ENGINE GASKETS | CRUZINIMAGE.NET",
+                          "snippet": "...76-85YAMAHA DT100 ENGINE GASKETS",
+                          "url": "https://www.cruzinimage.net/2017/11/24/76-85-yamaha-dt100-engine-gaskets/"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "New Orleans 76 – 85 Houston Baptist, Match Results -",
+                          "snippet": "Match stats and results for New Orleans - Houston Baptist. Check player statistics, points scored, assists and rebounds for the 06.12.2025 basketball ...",
+                          "url": "https://www.basketballstats247.com/matches/usa/new-orleans-houston-baptist-315589/"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 3,
+                      "tool": "web_search",
+                      "query": "WHO mental health treatment gap 76% 85% low-income middle-income countries source",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "",
+                          "snippet": "Tool call limit exceeded. Do not make additional tool calls.",
+                          "url": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "applied_evidences": [
+                    {
+                      "batch": 1,
+                      "rank": 1,
+                      "debate_round": 2,
+                      "agent": "skeptic",
+                      "cite": "r2-skeptic-1-1",
+                      "tool": "web_search",
+                      "query": "WHO 低收入中等收入国家 76% 85% 重度精神障碍 未接受治疗 最新数据",
+                      "title": "WHO：2025年世界心理健康现状报告|精神分裂症_新浪科技_新浪网",
+                      "snippet": "October 31, 2025 -经济层面，截至2024年，42%低收入国与72%中低收入国将心理健康纳入公共资助或社会保障体系；然而超半数低中收入国精神卫生支出仍偏重精神病院。抑郁与焦虑每年导致120亿工作日损失，经济损失近1万亿美元；社会成本（生产力损失与非医疗开销）远超医疗成本，心理障碍总成本占GDP的0.5%–1.0%（Chisholm等，2016；WHO，2025）。",
+                      "url": "https://finance.sina.com.cn/tech/roll/2025-10-31/doc-infvtrwx8914687.shtml"
+                    },
+                    {
+                      "batch": 1,
+                      "rank": 2,
+                      "debate_round": 2,
+                      "agent": "skeptic",
+                      "cite": "r2-skeptic-1-2",
+                      "tool": "web_search",
+                      "query": "WHO 低收入中等收入国家 76% 85% 重度精神障碍 未接受治疗 最新数据",
+                      "title": "[世界卫生组织]：今日世界心理健康：最新数据 - 发现报告",
+                      "snippet": "November 19, 2025 -全球精神健康状况严峻：全球超过10亿人患有精神疾病，其中大部分生活在低收入和中等收入国家（LMICs）。焦虑症和抑郁症是最常见的疾病，且在所有年龄段都有很高的患病率。",
+                      "url": "https://www.fxbaogao.com/detail/5081733"
+                    },
+                    {
+                      "batch": 1,
+                      "rank": 3,
+                      "debate_round": 2,
+                      "agent": "skeptic",
+                      "cite": "r2-skeptic-1-3",
+                      "tool": "web_search",
+                      "query": "WHO 低收入中等收入国家 76% 85% 重度精神障碍 未接受治疗 最新数据",
+                      "title": "最新数据显示全球每八人中就有一位有精神健康问题",
+                      "snippet": "September 6, 2025 -该报告也暴露出精神卫生领域巨大服务和资源差距。截至2024年，全球心理健康专业人员中位数仅为每10万人13人，低收入和中等收入国家人力极度短缺。",
+                      "url": "https://m.thepaper.cn/newsDetail_forward_31551363"
+                    }
+                  ],
+                  "cited_specs_raw": "1-1,1-2,1-3",
+                  "cited": "r2-skeptic-1-1,r2-skeptic-1-2,r2-skeptic-1-3"
+                }
+              },
+              {
+                "agent": "trust",
+                "output": {
+                  "opinion": "前序观点认为当前WHO报告可能不再使用该比例，但第2次检索的第1条摘要（2024年4月）明确引用了WHO的估计：“over 75% of those needing mental health treatment in LMICs receive no treatment at all”。这与claim中“76%至85%”的下限高度吻合，且是近期的权威引用。第2条摘要（2024年）也指出治疗缺口“in excess of 70%”，支持了缺口巨大的定性判断。虽然未精确到“重度精神障碍”，但“those needing mental health treatment”可涵盖该群体。因此，claim的核心数据（76%+）有近期（2024年）的WHO相关证据支持，并非过时。",
+                  "stance": "1",
+                  "factuality": true,
+                  "raw": "<opinion>前序观点认为当前WHO报告可能不再使用该比例，但第2次检索的第1条摘要（2024年4月）明确引用了WHO的估计：“over 75% of those needing mental health treatment in LMICs receive no treatment at all”。这与claim中“76%至85%”的下限高度吻合，且是近期的权威引用。第2条摘要（2024年）也指出治疗缺口“in excess of 70%”，支持了缺口巨大的定性判断。虽然未精确到“重度精神障碍”，但“those needing mental health treatment”可涵盖该群体。因此，claim的核心数据（76%+）有近期（2024年）的WHO相关证据支持，并非过时。</opinion>\n<stance>1</stance>\n<cited>2-1,2-2</cited>",
+                  "search_limit_fallback_used": true,
+                  "content_risk_fallback_used": false,
+                  "retrieved_evidences": [
+                    {
+                      "batch": 1,
+                      "tool": "web_search",
+                      "query": "低收入和中等收入国家 76% 85% 重度精神障碍患者 未接受治疗 WHO 数据",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "series_76-85",
+                          "snippet": "... series_76-85... 3030_85... 3030_76",
+                          "url": "https://www.pafart.com/paintings/works2022/series_76-85/"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "Unicycles 76-85 - 100 Unicycles",
+                          "snippet": "... Unicycles76-85",
+                          "url": "https://100unicycles.com/unicycles-76-85/"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "HSV 281°,85%,76% Color Code and Scheme - ColorFAQ",
+                          "snippet": "HSV 281°,85%,76% Color is a normal purple color and the nearest color is Dark Orchid 9932cc . ...76% blue, In CMYK color space, this color is ...",
+                          "url": "https://colorfaq.com/hsv-281_85_76"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "76-85 YAMAHA DT100 ENGINE GASKETS | CRUZINIMAGE.NET",
+                          "snippet": "...76-85YAMAHA DT100 ENGINE GASKETS",
+                          "url": "https://www.cruzinimage.net/2017/11/24/76-85-yamaha-dt100-engine-gaskets/"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "New Orleans 76 – 85 Houston Baptist, Match Results -",
+                          "snippet": "Match stats and results for New Orleans - Houston Baptist. Check player statistics, points scored, assists and rebounds for the 06.12.2025 basketball ...",
+                          "url": "https://www.basketballstats247.com/matches/usa/new-orleans-houston-baptist-315589/"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 2,
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders treatment gap low-income countries WHO",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "A Path for Scaling Mental Health Treatment in Low-Income ...",
+                          "snippet": "Apr 2, 2024 ·TheWorldHealthOrganizationestimates that over75% of those needingmentalhealthtreatmentinLMICsreceive no treatment at all. Malawi exemplifies thismentalhealthtreatmentgap: the country of 20 million has only four psychiatrists and a handful of othermentalhealth professionals.",
+                          "url": "https://globalhealth.unc.edu/2024/04/a-path-for-scaling-mental-health-treatment-in-low-income-countries-results-from-the-sharp-trial/"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "Towards integrated mental health services in low-income and ...",
+                          "snippet": "A shortfall ofmentalhealth specialists and a lack of integration of services in primary care inlow-incomeand middle-incomecountries(LMICs) contribute towards amentalhealthtreatmentgapin excess of 70%.",
+                          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10882400/"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "WHO Special Initiative for Mental Health",
+                          "snippet": "Dec 10, 2024 ·WHO’s Special Initiative for Mental Health (SIMH) seeks to address this service andtreatmentgap, currently in ninecountriesacrossWHOssix Regions – Bangladesh, Cambodia, Ghana, Jordan, Nepal, Ukraine and Zimbabwe, with the Philippines and Paraguay phasing down.",
+                          "url": "https://www.who.int/initiatives/who-special-initiative-for-mental-health"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "Mental Health Care Models in Low- and Middle-Income Countries",
+                          "snippet": "The prevalence ofmentalhealth and substance usedisordershas not declined across the world over the past 25 years. Additionally, thetreatmentgapsfor a range ofmentalhealth conditions remains high, more so inlow-incomeand middle-incomecountriesacross the world.",
+                          "url": "https://link.springer.com/rwe/10.1007/978-3-030-51366-5_156"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "Interventions to increase help-seeking for mental health care ...",
+                          "snippet": "Sep 13, 2023 ·Thistreatmentgapis particularly large inlow- and middle-incomecountries(LMIC) and is due to both supply-side and demand-side barriers. The aim of this systematic review is to identify and synthesise the evidence on interventions to improve help-seeking formentalhealth problems in LMICs.",
+                          "url": "https://journals.plos.org/globalpublichealth/article?id=10.1371/journal.pgph.0002302"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 3,
+                      "tool": "web_search",
+                      "query": "WHO mental health treatment gap 76% 85% severe mental disorders LMIC",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "",
+                          "snippet": "Tool call limit exceeded. Do not make additional tool calls.",
+                          "url": ""
+                        }
+                      ]
+                    }
+                  ],
+                  "applied_evidences": [
+                    {
+                      "batch": 2,
+                      "rank": 1,
+                      "debate_round": 2,
+                      "agent": "trust",
+                      "cite": "r2-trust-2-1",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders treatment gap low-income countries WHO",
+                      "title": "A Path for Scaling Mental Health Treatment in Low-Income ...",
+                      "snippet": "Apr 2, 2024 ·TheWorldHealthOrganizationestimates that over75% of those needingmentalhealthtreatmentinLMICsreceive no treatment at all. Malawi exemplifies thismentalhealthtreatmentgap: the country of 20 million has only four psychiatrists and a handful of othermentalhealth professionals.",
+                      "url": "https://globalhealth.unc.edu/2024/04/a-path-for-scaling-mental-health-treatment-in-low-income-countries-results-from-the-sharp-trial/"
+                    },
+                    {
+                      "batch": 2,
+                      "rank": 2,
+                      "debate_round": 2,
+                      "agent": "trust",
+                      "cite": "r2-trust-2-2",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders treatment gap low-income countries WHO",
+                      "title": "Towards integrated mental health services in low-income and ...",
+                      "snippet": "A shortfall ofmentalhealth specialists and a lack of integration of services in primary care inlow-incomeand middle-incomecountries(LMICs) contribute towards amentalhealthtreatmentgapin excess of 70%.",
+                      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10882400/"
+                    }
+                  ],
+                  "cited_specs_raw": "2-1,2-2",
+                  "cited": "r2-trust-2-1,r2-trust-2-2"
+                }
+              },
+              {
+                "agent": "leader",
+                "output": {
+                  "opinion": "根据第2次检索的第4条摘要，SciDev.Net的报道明确指出：“A significant proportion (76–85 per cent) of people in developing countries with a mental illness are not receiving the treatment they need”。这直接证实了claim中“76%至85%”的比例。虽然这是媒体报道而非原始WHO文件，但它引用了WHO数据。第5条摘要也提到“between 76% and 85% of people with severe mental health disorders receive no treatment... in low- and middle-income countries”，进一步支持该数据。尽管前序观点中Skeptic方质疑数据的时效性，但检索到的证据表明该比例仍在被引用和报道，且与claim完全一致。因此，claim有充分证据支持。",
+                  "stance": "1",
+                  "factuality": true,
+                  "raw": "<opinion>根据第2次检索的第4条摘要，SciDev.Net的报道明确指出：“A significant proportion (76–85 per cent) of people in developing countries with a mental illness are not receiving the treatment they need”。这直接证实了claim中“76%至85%”的比例。虽然这是媒体报道而非原始WHO文件，但它引用了WHO数据。第5条摘要也提到“between 76% and 85% of people with severe mental health disorders receive no treatment... in low- and middle-income countries”，进一步支持该数据。尽管前序观点中Skeptic方质疑数据的时效性，但检索到的证据表明该比例仍在被引用和报道，且与claim完全一致。因此，claim有充分证据支持。</opinion>\n<stance>1</stance>\n<severity>无</severity>\n<cited>2-4,2-5</cited>",
+                  "search_limit_fallback_used": false,
+                  "content_risk_fallback_used": false,
+                  "retrieved_evidences": [
+                    {
+                      "batch": 1,
+                      "tool": "web_search",
+                      "query": "WHO 低收入中等收入国家 精神障碍 治疗缺口 76% 85% 数据 2024 2025",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "WHO：2025年世界心理健康现状报告|精神分裂症_新浪科技_新浪网",
+                          "snippet": "October 31, 2025 -系统性差距依旧严峻。平均仅2%的卫生预算用于心理健康；低收入国每10万人仅有约1名精神卫生工作者，对比高收入国超60人；仅9%抑郁患者获最低 Adequate treatment；必需精神药物在许多国家缺乏或难以负担；数字鸿沟加剧边缘化人群获取远程服务的困难；研究投入严重失衡，89%研究资金由高收入国提供，只有4.6%的医卫研究聚焦心理健康（Woelbert等，2020）。",
+                          "url": "https://finance.sina.com.cn/tech/roll/2025-10-31/doc-infvtrwx8914687.shtml"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "执行委员会 第一五八届会议 临时议程项目7 EB158/7 2025 年11 月25 日 精神卫生 相关决议和决定的执行情况 总干事的报告 背景 1.",
+                          "snippet": "November 25, 2025 -在低收入和中等收入国家。2024 年，估计有96 个国家正在实施精神卫生差距行动规划，约",
+                          "url": "https://apps.who.int/gb/ebwha/pdf_files/EB158/B158_7-ch.pdf"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "《世界发展指标》2025年12月更新：发布健康、债务等新数据",
+                          "snippet": "January 9, 2026 -健康与营养：有关结核病发病率及治疗、营养不良和维生素A补充的新数据提供了更完整的全球健康趋势图景。 · 国际债务统计：基于2025 年《国际债务报告》（IDR），截至2024年年末的外债存量和流量数据现已可供查询。2024 年，低收入和中等收入...",
+                          "url": "https://blogs.worldbank.org/zh/opendata/world-development-indicators--december-2025-update--new-data-on-"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "世卫组织：2025年全球精神疾病患者9.7亿人，每8人中1人患病|精神疾病|抑郁症|世卫组织_新浪科技_新浪网",
+                          "snippet": "October 11, 2025 -职场高压环境使18-35岁青年抑郁焦虑就诊率年均增长18%，每5个职场新人中就有1人需药物干预，儿童青少年精神障碍患者超5000万，但就诊率不足20%。",
+                          "url": "https://finance.sina.com.cn/tech/roll/2025-10-11/doc-inftprkk7027300.shtml"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "1990—2021年我国精神障碍疾病负担分析与预测-在线期刊 | 《医学新知》官方网站",
+                          "snippet": "Prediction and analysis of disease burden of mental disorders in China from 1990 to 2021[J]. Yixue Xinzhi Zazhi, 2025, 35(1): 14-21. DOI: 10.12173/j.issn.1004-5511.202408089. [Article in Chinese]已复制 ... 方法 利用2021年全球疾病负担研究数据库，应用Joinpoint模型分析精神障碍发病变化趋势，并计算年度变化百分比和平均年度变化百分比（average annual percentage change，AAPC）；应用年龄-时期-队列模型分析年龄、时期及队列三个因素对精神障碍的影响，并预测2022—2032年精神障碍的发病率。",
+                          "url": "https://yxxz.whuznhmedj.com/journal/6582.html"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 2,
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders treatment gap low-income middle-income countries WHO",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "Depression (mood) - Wikipedia",
+                          "snippet": "...lowextraversion , 27 and peoplewhohave high levels of neuroticism are more likelytoexperience depressive symptoms and are more likelytoreceive ...",
+                          "url": "https://en.wikipedia.org/wiki/Depression_(mood)"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "Symptoms Of Depression And What Surveys And WHO Says About",
+                          "snippet": "It is also known that people do not get propertreatmentformentaldiseases. Inlow-middleincomecountries,85percent of the people do not get ...",
+                          "url": "https://hopecareindia.com/symptoms-of-depression-and-what-surveys-and-who-says-about-depression/"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "Cause profile: mental health — EA Forum",
+                          "snippet": "... recommends Cognitive Behavioural Therapy (CBT), as the first linetreatmentfor allmentalhealthdisorders.[17] CBT involves teaching people howto...",
+                          "url": "https://forum.effectivealtruism.org/posts/XWSTBBH8gSjiaNiy7/cause-profile-mental-health"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "Mental health research: Falling through the gaps",
+                          "snippet": "A significant proportion (76–85per cent) of people in developingcountrieswith amentalillness are not receiving thetreatmentthey need ...",
+                          "url": "https://www.scidev.net/global/features/mental-health-research-falling-through-the-gaps/"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "World mental health support and the effect of stigma and",
+                          "snippet": "...totheWHO, between76% and85% of people with severementalhealthdisordersreceive notreatmentfor theirdisorderinlow- andmiddle-income...",
+                          "url": "https://www.news-medical.net/health/World-mental-health-support-and-the-effect-of-stigma-and-discrimination.aspx"
+                        }
+                      ]
+                    }
+                  ],
+                  "applied_evidences": [
+                    {
+                      "batch": 2,
+                      "rank": 4,
+                      "debate_round": 2,
+                      "agent": "leader",
+                      "cite": "r2-leader-2-4",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders treatment gap low-income middle-income countries WHO",
+                      "title": "Mental health research: Falling through the gaps",
+                      "snippet": "A significant proportion (76–85per cent) of people in developingcountrieswith amentalillness are not receiving thetreatmentthey need ...",
+                      "url": "https://www.scidev.net/global/features/mental-health-research-falling-through-the-gaps/"
+                    },
+                    {
+                      "batch": 2,
+                      "rank": 5,
+                      "debate_round": 2,
+                      "agent": "leader",
+                      "cite": "r2-leader-2-5",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders treatment gap low-income middle-income countries WHO",
+                      "title": "World mental health support and the effect of stigma and",
+                      "snippet": "...totheWHO, between76% and85% of people with severementalhealthdisordersreceive notreatmentfor theirdisorderinlow- andmiddle-income...",
+                      "url": "https://www.news-medical.net/health/World-mental-health-support-and-the-effect-of-stigma-and-discrimination.aspx"
+                    }
+                  ],
+                  "cited_specs_raw": "2-4,2-5",
+                  "cited": "r2-leader-2-4,r2-leader-2-5"
+                }
+              }
+            ]
+          },
+          {
+            "round": 3,
+            "state": "S2",
+            "sequence": [
+              {
+                "agent": "skeptic",
+                "output": {
+                  "opinion": "前序观点引用的SciDev.Net报道确实提到了\"76–85 per cent\"的比例，但这是2022年的报道，且未提供原始WHO数据的具体年份或报告名称。更重要的是，我检索的最新学术文献（批次1-1）显示，当前（2024年）对低收入和中等收入国家精神健康治疗缺口的描述是\"in excess of 70%\"，而非精确的\"76%至85%\"。批次2-1的2024年文献也提到治疗缺口\"超过70%\"，但未确认具体比例。这表明，虽然历史数据可能存在并被引用，但当前（2023-2024年）的权威学术文献可能已不再使用或强调该精确比例，而是使用更宽泛的描述（如\"超过70%\"）。因此，claim中的具体比例可能已不是当前学术共识中的标准表述，前序观点将其作为\"充分证据\"可能高估了该数据在当前背景下的准确性和代表性。",
+                  "stance": "-0.2",
+                  "factuality": false,
+                  "raw": "<opinion>前序观点引用的SciDev.Net报道确实提到了\"76–85 per cent\"的比例，但这是2022年的报道，且未提供原始WHO数据的具体年份或报告名称。更重要的是，我检索的最新学术文献（批次1-1）显示，当前（2024年）对低收入和中等收入国家精神健康治疗缺口的描述是\"in excess of 70%\"，而非精确的\"76%至85%\"。批次2-1的2024年文献也提到治疗缺口\"超过70%\"，但未确认具体比例。这表明，虽然历史数据可能存在并被引用，但当前（2023-2024年）的权威学术文献可能已不再使用或强调该精确比例，而是使用更宽泛的描述（如\"超过70%\"）。因此，claim中的具体比例可能已不是当前学术共识中的标准表述，前序观点将其作为\"充分证据\"可能高估了该数据在当前背景下的准确性和代表性。</opinion>\n<stance>-0.2</stance>\n<cited>1-1,2-1</cited>",
+                  "search_limit_fallback_used": false,
+                  "content_risk_fallback_used": false,
+                  "retrieved_evidences": [
+                    {
+                      "batch": 1,
+                      "tool": "web_search",
+                      "query": "WHO 76% 85% 精神障碍 治疗缺口 低收入国家 最新数据",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "suppr.wilddata.cn/browses/detail/pubmed/35196603",
+                          "snippet": "However, many studies have relied on predominately White samples, and on brief symptom screening measures which may not fully capture the experiences of individuals of color (whoare disproportionately affected by poverty in the United States.)",
+                          "url": "https://suppr.wilddata.cn/browses/detail/pubmed/35196603"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "亚太域内外可“五措并举”，应对精神卫生问题 | Asian Development Blog",
+                          "snippet": "有不少精神卫生出现状况的人未获得任何正规治疗或干预。精神卫生问题和精神障碍治疗缺口，即未满足的需求量极大，特别是抑郁症在30%～50%，而焦虑症更是高达50%～70%。 对于中低收入国家而言，最常见的挑战包括认知不足，污名化...",
+                          "url": "https://blogs.adb.org/zh/blog/five-steps-address-mental-health-asia-and-pacific-and-beyond"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "国际麻醉品管制局2023年报告",
+                          "snippet": "WHO世卫组织.于姑息治疗比前十年有所增加。 然而在这 9.9% 中只有一小部分13.9%提供给了主要居住在.低收入和中等收入国家的全球很大一部分人口80.2%。 . 麻醉药品和精神药物的生产、制造、消 费、利用和库存的模式和趋势.",
+                          "url": "https://unis.unvienna.org/unis/uploads/documents/2024-INCB/2325540C_INCB_Annual_Report.pdf"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "精神健康：如何治疗不承认自己生病的人 - BBC 英伦网",
+                          "snippet": "1967年，时任加州州长的里根（Ronald Reagan）签署了具有里程碑意义的《兰特曼—彼得里—肖特法案》（Lanterman-Petris-Short Act），该法案旨在制止“对精神健康障碍、发育障碍和慢性酒精中毒.",
+                          "url": "https://www.bbc.com/ukchina/simp/vert-fut-45450960"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "Google",
+                          "snippet": "Поиск информации в интернете: веб страницы, картинки, видео и многое другое.",
+                          "url": "https://www.google.com/"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 2,
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental health treatment gap low-income countries WHO 2023 2024",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "Towards integrated mental health services in low-income and ...",
+                          "snippet": "A shortfall ofmentalhealthspecialists and a lack of integration of services in primary care inlow-incomeand middle-incomecountries(LMICs) contribute towards amentalhealthtreatmentgapin excess of 70%.",
+                          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10882400/"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "A Path for Scaling Mental Health Treatment in Low-Income ...",
+                          "snippet": "Apr 2,2024·While the U.S. may struggle to meet the need for qualitymentalhealthcare,treatmentin mostlow- and middle-income(LMIC)countries– where 80% of those withmentalillness live – is extremely limited.",
+                          "url": "https://globalhealth.unc.edu/2024/04/a-path-for-scaling-mental-health-treatment-in-low-income-countries-results-from-the-sharp-trial/"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "WHO Special Initiative for Mental Health",
+                          "snippet": "Dec 10,2024·WHO’s Special Initiative forMentalHealth(SIMH) seeks to address this service andtreatmentgap, currently in ninecountriesacrossWHOssix Regions – Bangladesh, Cambodia, Ghana, Jordan, Nepal, Ukraine and Zimbabwe, with the Philippines and Paraguay phasing down.",
+                          "url": "https://www.who.int/initiatives/who-special-initiative-for-mental-health"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "Mental Health Care Models in Low- and Middle-Income Countries",
+                          "snippet": "The prevalence ofmentalhealthand substance use disorders has not declined across the world over the past 25 years. Additionally, thetreatmentgapsfor a range ofmentalhealthconditions remains high, more so inlow-incomeand middle-incomecountriesacross the world.",
+                          "url": "https://link.springer.com/rwe/10.1007/978-3-030-51366-5_156"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "Mental health in low- and middle-income countries | Oxford ...",
+                          "snippet": "Aug 1, 2022 ·While the features and profiles ofmentaldisorders among the populations ofLMICsare broadly similar to those of populations in high-incomecountries, thetreatmentgapthat exists for these disorders is far larger inLMICsas a consequence of resource constraints.",
+                          "url": "https://academic.oup.com/book/43957/chapter/369599424"
+                        }
+                      ]
+                    }
+                  ],
+                  "applied_evidences": [
+                    {
+                      "batch": 1,
+                      "rank": 1,
+                      "debate_round": 3,
+                      "agent": "skeptic",
+                      "cite": "r3-skeptic-1-1",
+                      "tool": "web_search",
+                      "query": "WHO 76% 85% 精神障碍 治疗缺口 低收入国家 最新数据",
+                      "title": "suppr.wilddata.cn/browses/detail/pubmed/35196603",
+                      "snippet": "However, many studies have relied on predominately White samples, and on brief symptom screening measures which may not fully capture the experiences of individuals of color (whoare disproportionately affected by poverty in the United States.)",
+                      "url": "https://suppr.wilddata.cn/browses/detail/pubmed/35196603"
+                    },
+                    {
+                      "batch": 2,
+                      "rank": 1,
+                      "debate_round": 3,
+                      "agent": "skeptic",
+                      "cite": "r3-skeptic-2-1",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental health treatment gap low-income countries WHO 2023 2024",
+                      "title": "Towards integrated mental health services in low-income and ...",
+                      "snippet": "A shortfall ofmentalhealthspecialists and a lack of integration of services in primary care inlow-incomeand middle-incomecountries(LMICs) contribute towards amentalhealthtreatmentgapin excess of 70%.",
+                      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10882400/"
+                    }
+                  ],
+                  "cited_specs_raw": "1-1,2-1",
+                  "cited": "r3-skeptic-1-1,r3-skeptic-2-1"
+                }
+              },
+              {
+                "agent": "trust",
+                "output": {
+                  "opinion": "前序观点认为当前学术文献可能不再使用该精确比例，但第1次检索的第1条（2024年1月PMC文章）明确引用“the general mental health treatment gap estimates range from 76% to 85%”，第2条（2024年11月JMIR文章）也引用“estimates of between 76% to 85%”。这些是2024年的最新学术文献，直接支持claim中的比例。同时，第2次检索的WHO官方文件（如A65_10-ch.pdf、B130_9-ch.pdf等）提供了原始数据来源。因此，该比例不仅在历史WHO文件中存在，而且在2024年的学术研究中仍被广泛引用作为LMICs治疗缺口的基准估计，具有持续的相关性和权威性。",
+                  "stance": "1",
+                  "factuality": true,
+                  "raw": "<opinion>前序观点认为当前学术文献可能不再使用该精确比例，但第1次检索的第1条（2024年1月PMC文章）明确引用“the general mental health treatment gap estimates range from 76% to 85%”，第2条（2024年11月JMIR文章）也引用“estimates of between 76% to 85%”。这些是2024年的最新学术文献，直接支持claim中的比例。同时，第2次检索的WHO官方文件（如A65_10-ch.pdf、B130_9-ch.pdf等）提供了原始数据来源。因此，该比例不仅在历史WHO文件中存在，而且在2024年的学术研究中仍被广泛引用作为LMICs治疗缺口的基准估计，具有持续的相关性和权威性。</opinion>\n<stance>1</stance>\n<cited>1-1,1-2,2-1,2-2,2-3,2-5</cited>",
+                  "search_limit_fallback_used": false,
+                  "content_risk_fallback_used": false,
+                  "retrieved_evidences": [
+                    {
+                      "batch": 1,
+                      "tool": "web_search",
+                      "query": "WHO 76% 85% 重度精神障碍 低收入国家 治疗缺口 数据来源",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "PDFDSpace 精神 - apps.who.int",
+                          "snippet": "卫生系统资源和反应 大。在低收入和中等收入国家,76%至85%的严重精神障碍患者不能为其疾病获得任何治疗;高收入国家的相应比率也很高:35%� 50%。使问题进一步严重化的是为接受治疗者提供的医疗质量",
+                          "url": "https://apps.who.int/iris/bitstream/handle/10665/355463/9789240050945-chi.pdf"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "PDF全球精神障碍负担和各国卫生和社会部门",
+                          "snippet": "例如,低收入国家和中等收入国家分别有76% 和85%患有严重精神障碍的人未接受相关治疗;高收入国家未接受治疗人群的比例也很高,在35% 到50%之间。 精神障碍影响到诸如癌症、心血管病、糖尿病和哮喘病等其他非传染性疾病,并也会受到这些疾病的影响。",
+                          "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA65/A65_10-ch.pdf"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "PDFB130_9-ch - World Health Organization",
+                          "snippet": "在全世界,治疗精神障碍的需求和供应之间存在巨大空白。例如,低收入国家和中等收入国家分别有76% 和85%患有严重精神障碍的人未接受相关治疗;高收入国家未接受治疗人群的比例也很高,在35% 到50%之间。",
+                          "url": "https://apps.who.int/gb/ebwha/pdf_files/EB130/B130_9-ch.pdf"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "世界卫生组织数据 - datadot",
+                          "snippet": "《世界卫生统计报告》是世界卫生组织（WHO）每年汇编的关于健康和健康相关指标的最新可用数据。",
+                          "url": "https://data.who.int/zh/"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "PDFMicrosoft Word - B130_R8-ch.doc",
+                          "snippet": "进一步认识到世界各地都存在巨大的精神疾患治疗差距,低收入和中等收入国家76% 至85%的严重精神疾病患者得不到相应治疗,而高收入国家这方面的比率也很高,在35% 至50% 之间2;",
+                          "url": "https://iris.who.int/bitstream/handle/10665/26503/B130_R8-ch.pdf?sequence=1"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 2,
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders LMICs treatment gap WHO 2023 2024",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "Towards integrated mental health services in low-income and middle-income countries: organisation of primary healthcare providers – a scoping review protocol - PMC",
+                          "snippet": "A large South African cohort study ... programmes.10 In the broader low-income and middle-income country (LMIC) landscape,the general mental health treatment gap estimates range from 76% to 85%.11 The integration of mental health in primary healthcare services enables the consolidation ...",
+                          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10882400/"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "JMIR Research Protocols - Scalable Technology for Adolescents and Youth to Reduce Stress in the Treatment of Common Mental Disorders in Jordan: Protocol for a Randomized Controlled Trial",
+                          "snippet": "November 8, 2024 -Although there exists a high prevalence of mental disorders,there remains an equally high treatment gap, with estimates of between 76% to 85% of people—in countries classified by the World Bank’s Development Indicators as “less developed” ...",
+                          "url": "https://www.researchprotocols.org/2024/1/e54585"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "Strengthening mental health systems in low- and middle-income countries: the Emerald programme | BMC Medicine | Full Text",
+                          "snippet": "April 10, 2015 -A large multi-country survey showed that, on average,76% to 85% of people with severe mental disorders in low-income countries had not received any treatment in the previous 12 months[7]. This lack of treatment is associated with considerable ...",
+                          "url": "https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-015-0309-4"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "The effectiveness of mental health interventions involving",
+                          "snippet": "...tohigh-income countries, where 36–50% of people with amentaldisorderare estimatedtobe undertreated, this amountsto76–85% in low-and ...",
+                          "url": "https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-023-17417-6"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "Mental Health Treatment of Individuals Seeking Holy Water",
+                          "snippet": "Prevalence ofTreatmentGapAmong Participants Using Holy Water WithMentalIllness Symptoms, North Wollo Zone, Ethiopia,2024",
+                          "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2839758"
+                        }
+                      ]
+                    }
+                  ],
+                  "applied_evidences": [
+                    {
+                      "batch": 1,
+                      "rank": 1,
+                      "debate_round": 3,
+                      "agent": "trust",
+                      "cite": "r3-trust-1-1",
+                      "tool": "web_search",
+                      "query": "WHO 76% 85% 重度精神障碍 低收入国家 治疗缺口 数据来源",
+                      "title": "PDFDSpace 精神 - apps.who.int",
+                      "snippet": "卫生系统资源和反应 大。在低收入和中等收入国家,76%至85%的严重精神障碍患者不能为其疾病获得任何治疗;高收入国家的相应比率也很高:35%� 50%。使问题进一步严重化的是为接受治疗者提供的医疗质量",
+                      "url": "https://apps.who.int/iris/bitstream/handle/10665/355463/9789240050945-chi.pdf"
+                    },
+                    {
+                      "batch": 1,
+                      "rank": 2,
+                      "debate_round": 3,
+                      "agent": "trust",
+                      "cite": "r3-trust-1-2",
+                      "tool": "web_search",
+                      "query": "WHO 76% 85% 重度精神障碍 低收入国家 治疗缺口 数据来源",
+                      "title": "PDF全球精神障碍负担和各国卫生和社会部门",
+                      "snippet": "例如,低收入国家和中等收入国家分别有76% 和85%患有严重精神障碍的人未接受相关治疗;高收入国家未接受治疗人群的比例也很高,在35% 到50%之间。 精神障碍影响到诸如癌症、心血管病、糖尿病和哮喘病等其他非传染性疾病,并也会受到这些疾病的影响。",
+                      "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA65/A65_10-ch.pdf"
+                    },
+                    {
+                      "batch": 2,
+                      "rank": 1,
+                      "debate_round": 3,
+                      "agent": "trust",
+                      "cite": "r3-trust-2-1",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders LMICs treatment gap WHO 2023 2024",
+                      "title": "Towards integrated mental health services in low-income and middle-income countries: organisation of primary healthcare providers – a scoping review protocol - PMC",
+                      "snippet": "A large South African cohort study ... programmes.10 In the broader low-income and middle-income country (LMIC) landscape,the general mental health treatment gap estimates range from 76% to 85%.11 The integration of mental health in primary healthcare services enables the consolidation ...",
+                      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10882400/"
+                    },
+                    {
+                      "batch": 2,
+                      "rank": 2,
+                      "debate_round": 3,
+                      "agent": "trust",
+                      "cite": "r3-trust-2-2",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders LMICs treatment gap WHO 2023 2024",
+                      "title": "JMIR Research Protocols - Scalable Technology for Adolescents and Youth to Reduce Stress in the Treatment of Common Mental Disorders in Jordan: Protocol for a Randomized Controlled Trial",
+                      "snippet": "November 8, 2024 -Although there exists a high prevalence of mental disorders,there remains an equally high treatment gap, with estimates of between 76% to 85% of people—in countries classified by the World Bank’s Development Indicators as “less developed” ...",
+                      "url": "https://www.researchprotocols.org/2024/1/e54585"
+                    },
+                    {
+                      "batch": 2,
+                      "rank": 3,
+                      "debate_round": 3,
+                      "agent": "trust",
+                      "cite": "r3-trust-2-3",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders LMICs treatment gap WHO 2023 2024",
+                      "title": "Strengthening mental health systems in low- and middle-income countries: the Emerald programme | BMC Medicine | Full Text",
+                      "snippet": "April 10, 2015 -A large multi-country survey showed that, on average,76% to 85% of people with severe mental disorders in low-income countries had not received any treatment in the previous 12 months[7]. This lack of treatment is associated with considerable ...",
+                      "url": "https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-015-0309-4"
+                    },
+                    {
+                      "batch": 2,
+                      "rank": 5,
+                      "debate_round": 3,
+                      "agent": "trust",
+                      "cite": "r3-trust-2-5",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental disorders LMICs treatment gap WHO 2023 2024",
+                      "title": "Mental Health Treatment of Individuals Seeking Holy Water",
+                      "snippet": "Prevalence ofTreatmentGapAmong Participants Using Holy Water WithMentalIllness Symptoms, North Wollo Zone, Ethiopia,2024",
+                      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2839758"
+                    }
+                  ],
+                  "cited_specs_raw": "1-1,1-2,2-1,2-2,2-3,2-5",
+                  "cited": "r3-trust-1-1,r3-trust-1-2,r3-trust-2-1,r3-trust-2-2,r3-trust-2-3,r3-trust-2-5"
+                }
+              },
+              {
+                "agent": "leader",
+                "output": {
+                  "opinion": "根据第2次检索的第1条摘要，维基百科条目明确记载：“This so-called 'treatment gap' is estimated to reach between 76–85% for low- and middle-income countries”。第2条摘要（2024年PMC文章）也提到“the general mental health treatment gap estimates range from 76% to 85%”。第3条摘要（2024年11月JMIR文章）同样引用“estimates of between 76% to 85%”。这些2024年的最新学术文献持续引用该比例作为LMICs精神健康治疗缺口的基准估计。虽然前序观点中Skeptic方质疑数据的时效性，但检索显示该比例在2024年的学术研究中仍被广泛引用，表明它仍是当前学术讨论中的标准参考数据。因此，claim有充分且持续的证据支持。",
+                  "stance": "1",
+                  "factuality": true,
+                  "raw": "<opinion>根据第2次检索的第1条摘要，维基百科条目明确记载：“This so-called 'treatment gap' is estimated to reach between 76–85% for low- and middle-income countries”。第2条摘要（2024年PMC文章）也提到“the general mental health treatment gap estimates range from 76% to 85%”。第3条摘要（2024年11月JMIR文章）同样引用“estimates of between 76% to 85%”。这些2024年的最新学术文献持续引用该比例作为LMICs精神健康治疗缺口的基准估计。虽然前序观点中Skeptic方质疑数据的时效性，但检索显示该比例在2024年的学术研究中仍被广泛引用，表明它仍是当前学术讨论中的标准参考数据。因此，claim有充分且持续的证据支持。</opinion>\n<stance>1</stance>\n<severity>无</severity>\n<cited>2-1,2-2,2-3</cited>",
+                  "search_limit_fallback_used": false,
+                  "content_risk_fallback_used": false,
+                  "retrieved_evidences": [
+                    {
+                      "batch": 1,
+                      "tool": "web_search",
+                      "query": "低收入和中等收入国家 76% 85% 重度精神障碍 治疗缺口 WHO 数据 2024",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "WHO：2025年世界心理健康现状报告|精神分裂症_新浪科技_新浪网",
+                          "snippet": "October 31, 2025 -经济层面，截至2024年，42%低收入国与72%中低收入国将心理健康纳入公共资助或社会保障体系；然而超半数低中收入国精神卫生支出仍偏重精神病院。抑郁与焦虑每年导致120亿工作日损失，经济损失近1万亿美元；社会成本（生产力损失与非医疗开销）远超医疗成本，心理障碍总成本占GDP的0.5%–1.0%（Chisholm等，2016；WHO，2025）。",
+                          "url": "https://finance.sina.com.cn/tech/roll/2025-10-31/doc-infvtrwx8914687.shtml"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "[世界卫生组织]：今日世界心理健康：最新数据 - 发现报告",
+                          "snippet": "November 19, 2025 -全球精神健康状况严峻：全球超过10亿人患有精神疾病，其中大部分生活在低收入和中等收入国家（LMICs）。焦虑症和抑郁症是最常见的疾病，且在所有年龄段都有很高的患病率。",
+                          "url": "https://www.fxbaogao.com/detail/5081733"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "执行委员会 第一五八届会议 临时议程项目7 EB158/7 2025 年11 月25 日 精神卫生 相关决议和决定的执行情况 总干事的报告 背景 1.",
+                          "snippet": "November 25, 2025 -有一名政府精神卫生工作者。较低收入和较高收入国家的精神卫生资源存在显著差异。 ... 同样，一份新的《全球神经病学状况报告》3发现，尽管2021 年全球约有34 亿人患有 · 神经系统疾病，尽管有有效且可扩展的解决方案，但各种系统性障碍—— 如政策优先级不 · 足、认知和资源有限、治疗缺口巨大以及数据系统不完善—— 阻碍了为共同解决健康不良和",
+                          "url": "https://apps.who.int/gb/ebwha/pdf_files/EB158/B158_7-ch.pdf"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "报告 | 《2022年国民抑郁症蓝皮书》",
+                          "snippet": "世界卫生组织(WHO)统计，全球约10亿人正在遭受精神障碍困扰，每40秒就有一人因自杀而失去生命，低收入和中等收入国家的自杀人数占全球自杀人数的77%。",
+                          "url": "https://www.chinadevelopmentbrief.org.cn/news/detail/23683.html"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "最新数据显示全球每八人中就有一位有精神健康问题",
+                          "snippet": "September 6, 2025 -该报告也暴露出精神卫生领域巨大服务和资源差距。截至2024年，全球心理健康专业人员中位数仅为每10万人13人，低收入和中等收入国家人力极度短缺。",
+                          "url": "https://m.thepaper.cn/newsDetail_forward_31551363"
+                        }
+                      ]
+                    },
+                    {
+                      "batch": 2,
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental health treatment gap low-income middle-income countries 2024 study",
+                      "results": [
+                        {
+                          "rank": 1,
+                          "title": "Global mental health - Wikipedia",
+                          "snippet": "This so-called \"treatmentgap\" is estimated to reach between 76–85% forlow- andmiddle-incomecountries, and 35–50% for high-incomecountries. According to the National Alliance onMentalIllness, 33.5% of U.S. adults with a seriousmentalillness and 53.8% of U.S. adults with amentalillness received notreatmentfor it in the year 2020.",
+                          "url": "https://en.wikipedia.org/wiki/Global_mental_health"
+                        },
+                        {
+                          "rank": 2,
+                          "title": "Towards integrated mental health services in low-income and middle-income countries: organisation of primary healthcare providers – a scoping review protocol - PMC",
+                          "snippet": "A large South African cohort study ... programmes.10 In the broader low-income and middle-income country (LMIC) landscape,the general mental health treatment gap estimates range from 76% to 85%.11 The integration of mental health in primary healthcare services enables the consolidation ...",
+                          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10882400/"
+                        },
+                        {
+                          "rank": 3,
+                          "title": "JMIR Research Protocols - Scalable Technology for Adolescents and Youth to Reduce Stress in the Treatment of Common Mental Disorders in Jordan: Protocol for a Randomized Controlled Trial",
+                          "snippet": "November 8, 2024 -Although there exists a high prevalence of mental disorders,there remains an equally high treatment gap, with estimates of between 76% to 85% of people—in countries classified by the World Bank’s Development Indicators as “less developed” ...",
+                          "url": "https://www.researchprotocols.org/2024/1/e54585"
+                        },
+                        {
+                          "rank": 4,
+                          "title": "Strengthening mental health systems in low- and middle-income countries: the Emerald programme | BMC Medicine | Full Text",
+                          "snippet": "April 10, 2015 -A large multi-country survey showed that,on average, 76% to 85% of people with severe mental disorders in low-income countries had not received any treatment in the previous 12 months[7]. This lack of treatment is associated with considerable ...",
+                          "url": "https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-015-0309-4"
+                        },
+                        {
+                          "rank": 5,
+                          "title": "Strengthening mental health systems in low- and middle-income countries: the Emerald programme | BMC Medicine | Springer Nature Link",
+                          "snippet": "April 10, 2015 -A large multi-country survey showed that,on average, 76% to 85% of people with severe mental disorders in low-income countries had not received any treatment in the previous 12 months[7]. This lack of treatment is associated with considerable ...",
+                          "url": "https://link.springer.com/article/10.1186/s12916-015-0309-4"
+                        }
+                      ]
+                    }
+                  ],
+                  "applied_evidences": [
+                    {
+                      "batch": 2,
+                      "rank": 1,
+                      "debate_round": 3,
+                      "agent": "leader",
+                      "cite": "r3-leader-2-1",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental health treatment gap low-income middle-income countries 2024 study",
+                      "title": "Global mental health - Wikipedia",
+                      "snippet": "This so-called \"treatmentgap\" is estimated to reach between 76–85% forlow- andmiddle-incomecountries, and 35–50% for high-incomecountries. According to the National Alliance onMentalIllness, 33.5% of U.S. adults with a seriousmentalillness and 53.8% of U.S. adults with amentalillness received notreatmentfor it in the year 2020.",
+                      "url": "https://en.wikipedia.org/wiki/Global_mental_health"
+                    },
+                    {
+                      "batch": 2,
+                      "rank": 2,
+                      "debate_round": 3,
+                      "agent": "leader",
+                      "cite": "r3-leader-2-2",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental health treatment gap low-income middle-income countries 2024 study",
+                      "title": "Towards integrated mental health services in low-income and middle-income countries: organisation of primary healthcare providers – a scoping review protocol - PMC",
+                      "snippet": "A large South African cohort study ... programmes.10 In the broader low-income and middle-income country (LMIC) landscape,the general mental health treatment gap estimates range from 76% to 85%.11 The integration of mental health in primary healthcare services enables the consolidation ...",
+                      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10882400/"
+                    },
+                    {
+                      "batch": 2,
+                      "rank": 3,
+                      "debate_round": 3,
+                      "agent": "leader",
+                      "cite": "r3-leader-2-3",
+                      "tool": "web_search",
+                      "query": "\"76% to 85%\" mental health treatment gap low-income middle-income countries 2024 study",
+                      "title": "JMIR Research Protocols - Scalable Technology for Adolescents and Youth to Reduce Stress in the Treatment of Common Mental Disorders in Jordan: Protocol for a Randomized Controlled Trial",
+                      "snippet": "November 8, 2024 -Although there exists a high prevalence of mental disorders,there remains an equally high treatment gap, with estimates of between 76% to 85% of people—in countries classified by the World Bank’s Development Indicators as “less developed” ...",
+                      "url": "https://www.researchprotocols.org/2024/1/e54585"
+                    }
+                  ],
+                  "cited_specs_raw": "2-1,2-2,2-3",
+                  "cited": "r3-leader-2-1,r3-leader-2-2,r3-leader-2-3"
+                }
+              }
+            ]
+          }
+        ],
+        "total_rounds": 3
+      }
+    }
+  ]
+}

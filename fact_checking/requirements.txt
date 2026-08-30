@@ -1,0 +1,15 @@
+ddgs>=9.11.2
+langchain>=1.2.10
+langchain-community>=0.4.1
+langchain-core>=1.2.17
+langchain-huggingface>=0.1.0
+langchain-deepseek>=1.0.1
+langchain-openai>=1.1.10
+langchain-qwq>=0.3.4
+langchain-text-splitters>=1.1.1
+matplotlib>=3.10.3
+networkx>=3.6.1
+openai>=2.26.0
+python-dotenv>=1.2.2
+tavily>=1.1.0
+tqdm>=4.67.3

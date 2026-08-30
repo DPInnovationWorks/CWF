@@ -1,0 +1,721 @@
+{
+  "source": "tests/data/claims_51.json",
+  "total_items": 51,
+  "processed_items": 51,
+  "records": [
+    {
+      "id": 1,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "support",
+      "claim": "32% of liver transplantation programs required patients to discontinue methadone treatment in 2001.",
+      "final_claim": {
+        "opinion": "根据本轮检索结果，第1次检索的[2]条和第2次检索的[4]条均直接引用了主张中的完整句子：“32% of liver transplantation programs required patients to discontinue methadone treatment in 2001.” 这两个条目来源相同，均指向一个名为“Deep Lake”的技术文档库，该文档将此句作为示例文本。然而，该来源并非学术期刊、研究报告或官方政策文件，而是一个技术平台的示例库，其内容的原始出处和权威性无法在本轮检索结果中得到验证。没有找到来自医学期刊、移植协会或官方调查报告等可靠来源的直接证据来证实这一具体数据。因此，虽然该主张在技术文档中被提及，但其作为历史事实的可信度存疑，缺乏权威证据支撑。",
+        "stance": "0",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 2.5
+      }
+    },
+    {
+      "id": 2,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "support",
+      "claim": "40mg/day dosage of folic acid and 2mg/day dosage of vitamin B12 does not affect chronic kidney disease (CKD) progression.",
+      "final_claim": {
+        "opinion": "综合评估双方观点及现有检索证据，Skeptic的观点更具说服力。关键证据来自第1次检索的第1条，该文献明确指出，在晚期CKD或ESRD患者中，高剂量叶酸（40 mg/天）和维生素B12（2 mg/天）的补充“did not improve survival or delay the time to initiating dialysis”。延迟开始透析时间是评估CKD进展的关键临床终点。这一陈述直接支持了原主张“该剂量组合不影响CKD进展”。Trust的观点虽然正确指出了叶酸治疗与维生素B12水平的交互作用（第1次检索第2、4条），但这些是事后分析，并非直接针对HOST研究的高剂量方案，且不能推翻HOST研究关于未能延迟透析启动的直接阴性结果。因此，有直接证据支持原主张。",
+        "stance": "1",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 2.9621891315415882
+      }
+    },
+    {
+      "id": 3,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "support",
+      "claim": "76-85% of people with severe mental disorder receive no treatment in low and middle income countries.",
+      "final_claim": {
+        "opinion": "基于现有检索结果，claim中“76-85%”的数据在学术文献和报告中（如批次2-2, 2-3, 2-4）被广泛引用，用以描述中低收入国家严重精神障碍患者的治疗缺口。这些引用来源的时间跨度不一，表明该数据在描述这一长期存在的结构性问题上仍具参考价值。然而，检索结果中未包含WHO《2024年心理健康地图集》等最新官方报告的直接数据，无法确认该精确比例是否仍被WHO作为当前官方统计数据。因此，claim陈述了一个在文献中被广泛引用的、反映历史及可能持续存在的严峻问题的数据，但其作为“当前”精确统计数据的地位无法从现有证据中得到权威确认。",
+        "stance": "0",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 3.0281732318686396
+      }
+    },
+    {
+      "id": 4,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "support",
+      "claim": "A breast cancer patient's capacity to metabolize tamoxifen influences treatment outcome.",
+      "final_claim": {
+        "opinion": "基于最新检索证据，代谢能力对他莫昔芬治疗结果确实有影响，但影响机制主要是通过药物耐受性和依从性，而非直接决定生存结局。具体证据：1）超快代谢型（UM）患者他莫昔芬停药率显著更高，一项研究显示6个月停药率UM为18.8%，而其他代谢型为6.7%-7.6%（批次1-2）；另一研究甚至报告UM停药率达44.4%（批次1-3）。高停药率直接影响治疗完成度和疗效。2）确实存在专门研究评估早期增加他莫昔芬剂量对弱代谢型（PM）患者无病生存期（DFS）和总生存期（OS）的影响（批次2-1），这表明PM表型被视为临床干预的潜在风险因素。虽然关于CYP2D6基因型与生存结局的直接关联仍存争议，但代谢表型通过影响耐受性（副作用导致停药）间接影响治疗结果，这一路径有明确证据支持。因此，claim基本成立，但影响是间接的、概率性的，而非绝对的因果关系。",
+        "stance": "0.2",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 2.8467759147275635
+      }
+    },
+    {
+      "id": 5,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "support",
+      "claim": "A deficiency of folate increases blood levels of homocysteine.",
+      "final_claim": {
+        "opinion": "综合评估双方观点，Skeptic质疑“27%”这一具体数据在当前提供的检索摘要中缺乏直接支持，这一质疑是准确的。本轮提供的所有检索摘要均未提及“叶酸加维生素B12治疗使同型半胱氨酸平均降低27%”这一具体数据。然而，这并不否定claim的核心科学事实。第1次检索的条目1和条目5均明确指出，叶酸（维生素B9）是同型半胱氨酸代谢的关键辅因子，其缺乏会导致同型半胱氨酸在血液中浓度升高。这是明确的生化机制和普遍认知。因此，虽然前序观点引用的具体量化数据在本轮证据中无法证实，但claim“叶酸缺乏会增加血液中同型半胱氨酸水平”本身是正确的。",
+        "stance": "1",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 4.143061466744605
+      }
+    },
+    {
+      "id": 6,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "support",
+      "claim": "A diminished ovarian reserve does not solely indicate infertility in an a priori non-infertile population.",
+      "final_claim": {
+        "opinion": "综合评估双方观点及现有证据，我支持claim。关键点在于：1）现有检索证据（批次1-1, 1-5）明确显示，DOR的诊断是综合AMH、AFC、基础FSH和年龄等多个因素进行的，这本身就说明它不是单一、绝对的指标。2）虽然年龄是核心混杂因素（批次1-3, 1-4），但检索到的证据中，没有任何一项研究提供了在严格年龄匹配前提下，DOR独立、显著降低非不孕人群自然受孕率的直接数据。3）批次2-3的文献摘要指出DOR描述的是“对卵巢刺激或生育力（fecundity）降低”，但这一定义并未将DOR等同于不孕症。不孕症有明确的临床诊断标准（一年无保护性生活未孕），而DOR是一个描述卵巢储备状态的指标。在缺乏高质量、控制年龄的前瞻性队列研究证明DOR是导致不孕的独立充分因素之前，claim的表述是严谨的：在非不孕人群中，DOR不能单独作为不孕的判定依据。",
+        "stance": "1",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 4.1416713409822306
+      }
+    },
+    {
+      "id": 7,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "support",
+      "claim": "A high microerythrocyte count protects against severe anemia in homozygous alpha (+)- thalassemia trait subjects.",
+      "final_claim": {
+        "opinion": "根据检索结果，claim \"A high microerythrocyte count protects against severe anemia in homozygous alpha (+)- thalassemia trait subjects\" 在特定背景下是成立的。证据[1-1]和[1-2]明确显示，增加的小红细胞计数可能对α⁺-地中海贫血纯合儿童抵抗严重疟疾性贫血的保护作用有实质性贡献。证据[1-4]进一步解释，α⁺-地中海贫血中增加的小红细胞和低色素红细胞计数减少了急性疟疾期间血红蛋白的下降，从而降低了贫血风险。然而，需要澄清几个重要限定：1) 这种保护特指对抗严重疟疾性贫血，而不是所有类型的严重贫血；2) α⁺-地中海贫血纯合子本身会导致轻度贫血；3) 保护机制虽然与小红细胞计数增加相关，但证据[2-2]指出\"没有明确且无可辩驳的机制\"。因此，claim在限定于\"严重疟疾性贫血\"这一特定背景下是正确的，但不应理解为对所有严重贫血的普遍保护。",
+        "stance": "0.2",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 3.2143763034219757
+      }
+    },
+    {
+      "id": 8,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "support",
+      "claim": "A mutation in HNF4A leads to an increased risk of developing diabetes by the age of 14 years.",
+      "final_claim": {
+        "opinion": "证据表明HNF4A突变确实显著增加早发糖尿病风险，但claim中\"by the age of 14 years\"的表述过于具体和绝对。证据[1-2]明确指出HNF4A相关糖尿病（MODY3）的特征是\"early age of onset (childhood, adolescence, or young adulthood under 25 years)\"，这支持了儿童期或青春期发病的可能性，但未特指14岁。证据[2-4]显示，对于常见的p.R114W突变，只有54%的携带者在30岁前发展为糖尿病，这表明并非所有携带者都会在14岁前发病。虽然HNF4A突变确实导致早发糖尿病风险增加，且发病年龄通常在25岁前，涵盖儿童期和青春期，但claim将风险精确限定在14岁前缺乏直接证据支持。临床实践中，HNF4A相关糖尿病的发病年龄存在较大变异，从儿童期到成年早期都有可能。",
+        "stance": "-0.2",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 2.2703135724065553
+      }
+    },
+    {
+      "id": 9,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "support",
+      "claim": "A single nucleotide variant the gene DGKK is strongly associated with increased risk of hypospadias.",
+      "final_claim": {
+        "opinion": "基于本轮检索摘要，主张“DGKK基因的单核苷酸变异与尿道下裂风险增加强相关”在原始GWAS研究中得到了直接支持。证据[2-1]和[2-4]的标题即为“Common variants in DGKK are strongly associated with risk of hypospadias”，明确证实了核心主张。证据[2-3]也确认了该GWAS发现了与尿道下裂关联的DGKK SNPs（rs1934179和rs7063116）。然而，证据[2-2]和[2-5]指出了关联的复杂性：证据[2-2]旨在在多种族人群中复制该关联，暗示原始发现可能并非普遍适用；证据[2-5]则指出，最强的关联估计出现在轻度尿道下裂比例最高的研究中，提示关联强度可能与疾病严重程度相关。因此，该主张在原始发现（欧洲人群，可能主要为轻度病例）中成立，但“强相关”的概括性陈述需考虑人群和疾病亚型的限制。",
+        "stance": "0.2",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 3.2328026015896008
+      }
+    },
+    {
+      "id": 10,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "support",
+      "claim": "A strong bias in the phage genome locations where the spacers were derived has been observed in many CRISPR subtypes that confer the immunity to phage.",
+      "final_claim": {
+        "opinion": "根据检索证据，主张\"在许多赋予噬菌体免疫力的CRISPR亚型中，观察到间隔序列来源的噬菌体基因组位置存在强烈偏好性\"得到直接支持。摘要[1-5]明确陈述：\"We detect a strong and reproducible bias in the phage genome locations from which spacers derive.\" 该研究直接证实了在噬菌体基因组位置来源上存在强烈且可重复的偏好性。虽然前序讨论中提到了证据的普遍性问题，但主张本身并未要求证明在所有亚型中都存在，而是陈述\"在许多CRISPR亚型中观察到\"，这已被一项明确的研究所证实。检索结果[2-2]也提到间隔序列获取是适应性免疫的一部分，支持了CRISPR系统赋予噬菌体免疫力的背景。因此，该主张有明确的文献证据支持。",
+        "stance": "1",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 3.3856715236506005
+      }
+    },
+    {
+      "id": 11,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "support",
+      "claim": "ALDH1 expression is associated with poorer prognosis for breast cancer primary tumors.",
+      "final_claim": {
+        "opinion": "综合评估双方观点及最新证据，主张\"ALDH1表达与乳腺癌原发肿瘤较差预后相关\"在特定限定下成立，但作为一般性陈述证据不足且存在显著争议。检索证据显示：1）ALDH1A1表达与较大肿瘤、较高组织学分级、淋巴结转移等不良特征相关（1-3），但其临床病理和预后意义\"仍然存在争议\"（1-4）；2）ALDH1存在显著的肿瘤间和肿瘤内异质性，不同亚型在不同细胞类型中表达：ALDH1A3主要表达于基底样肿瘤的上皮细胞，而ALDH1A2和ALDH1A1在基质细胞中富集（2-2, 2-3）；3）ALDH1A3和ALDH1A2表达与高分级肿瘤的不良预后相关（2-2）。因此，虽然某些ALDH1亚型（特别是ALDH1A3和ALDH1A2）在高分级肿瘤中与不良预后明确相关，但ALDH1作为一个整体标志物，其预后价值高度依赖于亚型、细胞类型和检测方法。鉴于主张未加这些关键限定，整体上证据支持有限且存在矛盾。",
+        "stance": "-0.2",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 2.792956048746116
+      }
+    },
+    {
+      "id": 12,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "support",
+      "claim": "AMP-activated protein kinase (AMPK) activation reduces inflammation-related fibrosis in the lungs.",
+      "final_claim": {
+        "opinion": "AMPK激活在人类IPF细胞模型中显示出抗纤维化作用，这为机制相关性提供了重要证据。然而，临床证据仍然有限且不一致：虽然回顾性研究提示潜在获益，但一项事后分析显示二甲双胍（AMPK激活剂）对IPF患者的临床相关结局没有显著影响。目前正在进行的大型随机对照试验（MAVRIC试验）将提供更明确的答案。因此，虽然体外和动物实验证据支持AMPK激活可能减轻肺纤维化，但人类临床疗效尚未得到充分证实。主张在机制层面有合理支持，但在临床疗效层面证据不足。",
+        "stance": "0",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 3.2553978813195847
+      }
+    },
+    {
+      "id": 13,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "support",
+      "claim": "ART substantially reduces infectiveness of HIV-positive people.",
+      "final_claim": {
+        "opinion": "基于检索证据，ART确实能实质性降低HIV阳性人群的传染性。HPTN 052试验显示ART预防了超过96%的基因关联感染[1-2, 1-3, 1-5]，这直接证实了\"实质性降低\"的表述。虽然Skeptic正确指出现实世界中存在依从性、耐药性等挑战[2-1, 2-2, 2-3]，但Trust的观点更符合科学证据：ART是预防HIV传播的有效策略[1-4]。即使考虑现实挑战，WHO指出坚持治疗下90%以上患者可实现病毒抑制[2-1]，而病毒抑制是降低传播风险的关键。因此，claim成立，但需理解其效果依赖于治疗依从性和病毒抑制。",
+        "stance": "1",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 4.300295063134946
+      }
+    },
+    {
+      "id": 14,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "support",
+      "claim": "Activated Cdk5 phosphorylates the ATM protein in response to DNA damage.",
+      "final_claim": {
+        "opinion": "检索证据明确显示，Cdk5磷酸化ATM以响应DNA损伤的现象仅在神经元（特别是“post-mitotic neurons”）中被实验证实和描述。虽然Cdk5在非神经元组织中也有表达和功能，但现有证据并未支持其在非神经元细胞中通过磷酸化ATM来响应DNA损伤。因此，claim作为一个普遍性陈述是不准确的。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 1,
+        "claim_original_conf": 1.744300256456833
+      }
+    },
+    {
+      "id": 15,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "support",
+      "claim": "Activated Cdk5 regulates DNA damage-induced neuronal death.",
+      "final_claim": {
+        "opinion": "综合所有证据，激活的Cdk5确实在DNA损伤诱导的神经元死亡中发挥关键调节作用。关键证据来自Nature Cell Biology的研究（批次1-1,1-2），明确显示：1）DNA损伤激活Cdk5；2）Cdk5直接磷酸化ATM的Ser794位点；3）这一磷酸化事件激活ATM激酶活性；4）Cdk5-ATM通路调节p53和H2AX的磷酸化与功能；5）中断Cdk5-ATM通路可减弱DNA损伤诱导的神经元细胞周期重新进入和促凋亡蛋白（PUMA和Bax）表达，从而保护神经元免于死亡。虽然存在其他通路如NF-κB（批次2-1,2-3）也参与DNA损伤响应，但Cdk5-ATM通路已被实验证实是DNA损伤激活ATM并诱导神经元死亡的具体机制。证据表明Cdk5在此过程中不是唯一调节因子，但确实是重要的、机制明确的调节因子，claim的表述在科学上是准确且有充分实验支持的。",
+        "stance": "1",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 4.204044454118924
+      }
+    },
+    {
+      "id": 16,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "support",
+      "claim": "Activation of the Rac1 homolog CED-10 kills viable cells in SRGP-1 mutant Caenorhabditis elegans.",
+      "final_claim": {
+        "opinion": "根据检索证据，SRGP-1作为CED-10/Rac1的GTP酶激活蛋白(GAP)，其缺失导致CED-10过度激活。证据[1-1]和[1-3]明确表明，SRGP-1功能丧失不仅促进已死亡细胞的清除，还能清除\"被带到死亡边缘的细胞\"。这些细胞经历了亚致死凋亡、坏死或细胞毒性损伤，技术上仍存活但已显示病态信号。这与\"吞噬性死亡\"(phagoptosis)概念一致，即吞噬信号可以介导对\"otherwise-viable cells\"的清除。因此，claim中\"kills viable cells\"的表述在特定语境下是准确的，指的是那些虽然技术上存活但已显示病态信号（如eat-me信号）的细胞。然而，claim的表述可能过于简化，忽略了这些细胞已处于\"病态\"或\"濒死\"状态的重要背景。CED-10的过度激活降低了吞噬阈值，使得这些边缘状态的细胞更容易被清除，而非直接诱导健康细胞死亡。",
+        "stance": "0.2",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 3.2752363348992537
+      }
+    },
+    {
+      "id": 17,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "support",
+      "claim": "Active Ly49Q induces neutrophil polarization.",
+      "final_claim": {
+        "opinion": "基于现有检索证据，Ly49Q在炎症刺激存在时确实介导中性粒细胞的快速极化。证据[1-2]明确指出，在炎症刺激下，Ly49Q以ITIM结构域依赖的方式介导快速中性粒细胞极化和组织浸润。然而，证据中使用的术语是“mediated”（介导）而非“induces”（诱导），且所有证据均强调这一过程需要“inflammatory stimuli”（炎症刺激）作为前提条件。Claim中“Active Ly49Q induces”的表述，暗示了Ly49Q的激活状态本身是极化过程的直接诱因，这可能过度简化了实际生物学机制，因为极化是Ly49Q在特定炎症环境下介导的复杂过程的一部分。因此，该claim在核心含义上得到部分支持，但表述不够精确。",
+        "stance": "0.2",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 3.2612107187752155
+      }
+    },
+    {
+      "id": 18,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "not support",
+      "claim": "1 in 5 million in UK have abnormal PrP positivity.",
+      "final_claim": {
+        "opinion": "综合评估双方观点及现有检索摘要，Skeptic的观点更准确。Claim中的“1 in 5 million”与检索到的科学证据严重不符。摘要[2-1]、[2-2]、[2-3]均明确指出，基于阑尾样本的研究发现英国人群中异常朊蛋白（PrP）的阳性率约为每百万人493例，即约1/2000。这与claim中的“1 in 5 million”（即每500万人中有1人，或每百万人0.2例）相差超过2000倍。因此，无论claim具体指代何种精确概念（临床vCJD或异常PrP阳性），其给出的比率都远低于科学研究得出的亚临床感染流行率，是错误的。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 1.0863715700828376
+      }
+    },
+    {
+      "id": 19,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "not support",
+      "claim": "A T helper 2 cell (Th2) environment impedes disease development in patients with systemic lupus erythematosus (SLE).",
+      "final_claim": {
+        "opinion": "基于所有检索证据的综合分析，我裁决强烈反对claim。所有可用证据一致表明Th2相关免疫在SLE中扮演关键致病角色，而非保护作用。具体证据包括：1) Th2相关免疫在SLE中\"起重要作用\"、\"关键作用\"或\"扮演关键角色\"[1-1, 1-2, 2-2, 2-4, 2-5]；2) Th2细胞通过产生IL-4、IL-5、IL-13等细胞因子参与调节2型免疫应答[1-2, 2-3]；3) 活动期SLE患者Th2型细胞因子（如IL-4、IL-10、IL-13）水平显著升高，且与疾病活动度相关[1-4, 1-5, 2-2]；4) 有研究明确显示IL-4缺乏在狼疮小鼠模型中具有保护作用[1-3]，这直接反驳了Th2环境（以IL-4为关键因子）的保护性；5) Th2相关免疫的关键分子被视为SLE诊断和治疗的潜在靶点[1-1, 2-2, 2-4, 2-5]。虽然Skeptic正确指出\"相关性不等于因果关系\"以及Th2免疫可能具有复杂功能，但所有证据的指向性高度一致：Th2环境是SLE发病机制中的重要参与者，其失衡（特别是Th2优势）与疾病发生发展相关，且无任何证据支持其具有阻碍疾病发展的保护作用。因此，claim完全缺乏证据支持，且与现有科学认知相悖。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 0.8978921708314378
+      }
+    },
+    {
+      "id": 20,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "not support",
+      "claim": "A country's Vaccine Alliance (GAVI) eligibility is not indictivate of accelerated adoption of the Hub vaccine.",
+      "final_claim": {
+        "opinion": "检索到的证据不支持“GAVI资格不表明Hub疫苗加速采用”这一主张。首先，GAVI的绩效跟踪显示，符合条件的国家利用其支持来重组外展、数据系统和疫苗计划，旨在实现高覆盖率目标（1-2）。其次，一项专门研究分析了GAVI支持国家从疫苗许可到国家引入和采用的时间线（1-3），这直接提供了评估GAVI支持与疫苗引入/采用速度之间关联的数据。VIEW-hub报告也提供了GAVI资格国家引入疫苗的数据（2-1, 2-4），并作为追踪疫苗引入以帮助加速实施的平台（2-3）。虽然“Hub疫苗”这一具体术语未在摘要中明确定义，但证据表明GAVI资格和支持机制与旨在并能够加速疫苗引入和采用的过程相关。因此，该主张与现有证据相悖。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 1.3187826850517093
+      }
+    },
+    {
+      "id": 21,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "not support",
+      "claim": "A diminished ovarian reserve is a very strong indicator of infertility, even in an a priori non-infertile population.",
+      "final_claim": {
+        "opinion": "综合评估双方观点和已有证据：DOR确实与生育力下降相关，是不孕的风险因素之一，但原主张中\"非常强\"和\"即使在一个先验非不孕人群中\"的表述过于绝对。证据显示，在一般生育人群中，卵巢储备标志物不能准确预测妊娠结局；即使在不孕女性中，也不是ART后妊娠结局的可靠预测因子。DOR更多是辅助生殖治疗反应的预测指标，而非一般人群不孕的确定性诊断工具。因此，原主张夸大了DOR的预测能力。",
+        "stance": "-0.2",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 2.203775901418254
+      }
+    },
+    {
+      "id": 22,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "not support",
+      "claim": "APOE4 expression in iPSC-derived neurons results in decreased tau phosphorylation.",
+      "final_claim": {
+        "opinion": "基于最新检索证据，APOE4在iPSC来源的神经元中导致tau磷酸化增加，而非减少。证据[1-1]明确显示，在AD和fAD iPSC神经元中，病理性tau磷酸化是增加的，并且与Aβ物种的丰度正相关。证据[1-2]表明BMP信号与APOE4相互作用显著增加tau磷酸化。证据[1-3]和[1-4]都确认APOE4在iPSC来源的神经元中促进tau磷酸化。所有检索到的证据一致表明APOE4表达与tau磷酸化增加相关，没有任何证据支持APOE4表达会导致tau磷酸化减少。因此，声称\"APOE4 expression in iPSC-derived neurons results in decreased tau phosphorylation\"与现有科学证据完全矛盾。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 0.28596723373764954
+      }
+    },
+    {
+      "id": 23,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "not support",
+      "claim": "ART has no effect on the infectiveness of HIV-positive people.",
+      "final_claim": {
+        "opinion": "基于检索证据，原主张\"ART对HIV阳性者的传染性没有影响\"是完全错误的。ART通过抑制病毒复制，显著降低HIV通过所有主要传播途径的风险：1）性传播风险几乎为零（U=U原则）；2）母婴传播风险从15-45%降至1%以下；3）血液传播风险也显著降低，虽然共用注射器等高风险行为仍有感染可能，但ART治疗者的病毒载量降低会减少血液中的病毒含量，从而降低传播概率。世界卫生组织数据显示，接受ART治疗且病毒载量受抑制者没有将HIV传播给他人的风险。因此，ART对HIV传染性具有明确的、显著的降低效果。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 0.35077205518199017
+      }
+    },
+    {
+      "id": 24,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "not support",
+      "claim": "Activation of PPM1D enhances p53 function.",
+      "final_claim": {
+        "opinion": "根据检索到的科学证据，PPM1D被明确描述为p53的负向调节因子。证据显示PPM1D\"负向调节p53\"、\"抑制p53依赖的转录激活和细胞死亡\"、\"是p53的抑制因子\"。PPM1D通过去磷酸化p53的Ser-15位点使其功能失活，其激活会抑制而非增强p53功能。因此，\"激活PPM1D增强p53功能\"这一说法与所有科学证据完全相反。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 1,
+        "claim_original_conf": 0.7739086244578273
+      }
+    },
+    {
+      "id": 25,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "not support",
+      "claim": "Active Ly49Q prevents neutrophil polarization.",
+      "final_claim": {
+        "opinion": "综合所有证据和前序观点，Ly49Q在中性粒细胞极化中具有复杂的双相调节功能。在稳态条件下，Ly49Q抑制黏附可能暂时阻碍极化启动，但在炎症刺激下（即Ly49Q被激活或发挥功能的状态），它对于中性粒细胞的快速极化和定向迁移至关重要。证据[1-1]明确指出Ly49Q\"was crucial for the swift polarization\"，而[1-3]表明它通过调节膜筏功能来指导极化组织。原始claim\"Active Ly49Q prevents neutrophil polarization\"具有误导性，因为它忽略了Ly49Q在炎症条件下的促进极化作用，而炎症条件正是Ly49Q被激活并发挥功能的主要环境。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 1.3356620524618004
+      }
+    },
+    {
+      "id": 26,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "not support",
+      "claim": "Alirocumab treatment reduces apo(a) fractional clearance rate.",
+      "final_claim": {
+        "opinion": "根据检索到的证据，alirocumab治疗实际上倾向于增加而非减少apo(a)的分数清除率（FCR）。证据[1]和[5]明确显示，apo(a)的FCR倾向于增加24.6%，尽管这一变化未达到统计学显著性。证据[4]进一步确认，alirocumab通过双重作用模式降低血浆Lp(a)浓度：增加清除率并减少Lp(a)颗粒的产生。这与声称的\"降低apo(a)分数清除率\"完全相反。因此，该主张与现有研究证据不符。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 0.7948054815602497
+      }
+    },
+    {
+      "id": 27,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "not support",
+      "claim": "Allogeneic mechanical circulatory support is not as effective as autologous mechanical circulatory support for treating acute myocardial infarction.",
+      "final_claim": {
+        "opinion": "基于现有信息分析，我支持Trust的观点。虽然Skeptic试图将claim重新解释为\"依赖外部设备支持\"与\"依靠自身心脏恢复\"之间的比喻性比较，但这种解读过于牵强且缺乏证据支持。检索结果显示，MCS设备的分类主要基于设备类型（IABP、Impella、ECMO等）、支持部位和植入时间，从未使用\"自体/异体\"这一分类体系。在医学语境中，\"自体/异体\"严格指代生物来源（如细胞、组织、器官），而非机械设备的属性。Claim使用了根本错误的分类框架，这使得其核心比较前提无法成立。尽管不同MCS设备在治疗急性心肌梗死中的疗效确实存在差异（如DanGer Shock试验显示Impella CP优于IABP），但这与\"自体/异体\"的分类无关。因此，claim本身因其错误的术语和分类框架而无法成立，尽管其背后隐含了一个有效的临床问题。",
+        "stance": "0.2",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 2.4878727319104836
+      }
+    },
+    {
+      "id": 28,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "not support",
+      "claim": "Alteration of origin firing causes changes in termination zones of Okazaki fragments.",
+      "final_claim": {
+        "opinion": "综合评估所有证据，claim中\"Alteration of origin firing causes changes in termination zones of Okazaki fragments\"的表述过于绝对化。检索结果[1-3]显示存在贝叶斯算法可以从Okazaki片段数据推断origin firing时间分布，这表明两者之间存在密切关联。然而，检索结果[1-5]提到\"dormant origin firing promotes head-on transcription-replication conflicts at transcription termination sites\"，这暗示termination zones的变化可能反过来影响origin firing，表明这是一个双向相互作用的系统。更重要的是，生物学上termination zones的位置由多个origin的firing时间、复制叉速度及其相遇点共同决定，而非单一因素。虽然origin firing的改变确实可以影响termination zones的格局，但claim忽略了系统的复杂性和可能的补偿机制。现有证据支持相关性而非明确的单向因果关系。",
+        "stance": "0",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 3.1769551952160913
+      }
+    },
+    {
+      "id": 29,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "not support",
+      "claim": "Ambulatory blood pressure monitoring is inaccurate at diagnosing hypertension.",
+      "final_claim": {
+        "opinion": "基于检索证据，动态血压监测（ABPM）在诊断高血压方面具有高度准确性，被广泛认为是评估真实血压状况的\"金标准\"。证据显示：1）ABPM已成为诊断高血压、心血管风险评估、治疗监测和指导个体化治疗不可或缺的技术[1-1]；2）ABPM被描述为高血压患者的诊断\"金标准\"[1-4]；3）2024年中国动态血压监测基层应用指南明确将ABPM作为诊断高血压的重要手段[2-3]；4）虽然ABPM存在实施挑战和局限性[2-2]，但这些是技术实施层面的问题，不影响其作为诊断工具的根本准确性。事实上，ABPM能提供24小时血压曲线，克服诊室测量的局限性，显著提高高血压诊断准确性。因此，声称\"ABPM在诊断高血压时不准确\"与大量循证医学证据和临床指南共识相悖。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 0.9563499152162143
+      }
+    },
+    {
+      "id": 30,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "not support",
+      "claim": "Angiotensin converting enzyme inhibitors are associated with decreased risk for functional renal insufficiency.",
+      "final_claim": {
+        "opinion": "基于最新检索证据，ACE抑制剂与功能性肾功能不全风险的关系具有明确的双重性。一方面，ACE抑制剂确实能降低慢性肾脏病进展风险（如第1次检索[2]的网络荟萃分析显示其对CKD 3-5期患者的肾脏保护作用）。另一方面，功能性肾功能不全作为ACE抑制剂的已知类别效应已被明确记录（第2次检索[1,3,4]），特别是在肾灌注压力受损的情况下，如肾动脉狭窄患者。关键证据显示，ACE抑制剂使用\"可能与'功能性肾功能不全'和/或高钾血症相关\"（第2次检索[1]），且这种综合征在ACE抑制剂上市后不久就被确认为类别效应（第2次检索[4]）。因此，claim\"ACE抑制剂与功能性肾功能不全风险降低相关\"是片面且误导性的，因为它完全忽略了ACE抑制剂本身可能诱发功能性肾功能不全这一明确风险。",
+        "stance": "-0.2",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 2.487829305207724
+      }
+    },
+    {
+      "id": 31,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "not support",
+      "claim": "Antidepressants increase the severity of migraines.",
+      "final_claim": {
+        "opinion": "综合评估所有证据，抗抑郁药在偏头痛治疗中主要发挥预防性作用而非加重病情。检索证据[1-1]显示，三环类抗抑郁药（如阿米替林）是最先用于偏头痛预防的药物之一；[1-3]和[1-5]综述了近5年抗抑郁药预防治疗慢性偏头痛的有效性和安全性；[2-4]来自中国专家共识，确认了抗抑郁药在偏头痛与抑郁障碍共病治疗中的标准地位。虽然某些抗抑郁药（特别是SSRIs）可能将头痛列为潜在副作用（证据[2-4]），但这通常指药物本身可能引起头痛，而非系统性证据表明它们会加重患者原有偏头痛的严重程度。临床实践中，抗抑郁药作为偏头痛预防性治疗已写入专家共识，其核心作用是降低发作频率而非增加严重程度。因此，“抗抑郁药增加偏头痛严重程度”的说法与主流医学证据和实践相悖。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 0.4033754457355001
+      }
+    },
+    {
+      "id": 32,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "not support",
+      "claim": "Antimicrobial agents are more effective due to the pressure of antimicrobial usage.",
+      "final_claim": {
+        "opinion": "虽然Skeptic提出了短期效果的可能性，但综合所有证据表明，抗菌药物使用压力不会提高其有效性。检索证据[2-3]明确显示\"短暂抗生素暴露驱动肠道共生菌向低代价耐药性进化\"，即使短期暴露也会导致耐药性突变持续存在。更重要的是，从临床实践看，证据[3-1]和[3-2]表明即使初始经验性治疗有效，当药敏结果显示耐药时，仍需考虑调整方案，这反映了使用压力导致的耐药性对治疗效果的负面影响。从进化机制看，使用压力是选择压力，它筛选出耐药菌株而非增强药物效力。虽然短期内药物可能清除敏感菌群，但这种\"选择性清扫\"[2-4]恰恰是耐药性进化的开始，而非药物效力的提高。因此，claim\"抗菌药物更有效由于使用压力\"在根本上误解了抗生素压力与药物效果的关系。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 1.1301067014742443
+      }
+    },
+    {
+      "id": 33,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "not support",
+      "claim": "Antiretroviral therapy increases rates of tuberculosis across a broad range of CD4 strata.",
+      "final_claim": {
+        "opinion": "基于已有检索证据，claim\"抗逆转录病毒疗法在广泛的CD4分层中增加结核病发病率\"是错误的。证据[1-2]明确指出\"未经治疗的HIV感染会增加结核病风险\"，这从反面证实了ART的治疗和预防作用。证据[1-4]和[2-1]表明，早期ART与TB/HIV合并感染患者中TB-IRIS风险增加相关，但这仅限于已确诊结核病的患者发生免疫重建炎症综合征的风险，而非ART导致普通HIV感染者结核病发病率在广泛CD4分层中普遍增加。IRIS是已有感染的显现或炎症反应加剧，不能等同于新发结核病感染率的增加。因此，claim与ART作为降低结核病总体风险的根本性公共卫生证据相悖。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 0.7091670251496616
+      }
+    },
+    {
+      "id": 34,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "not support",
+      "claim": "Asymptomatic visual impairment screening in elderly populations leads to improved vision.",
+      "final_claim": {
+        "opinion": "基于第2次检索获得的USPSTF系统评价证据，该证据明确指出，在初级保健环境中对老年人进行视力筛查与不筛查、常规护理或延迟筛查相比，在视力和其他临床结果上没有差异。该结论基于对四项随机对照试验（RCTs）的分析。因此，主张“无症状视觉障碍筛查在老年人群中导致视力改善”缺乏直接证据支持。筛查可能有助于识别问题，但现有最高等级证据（RCTs）不支持其能直接改善视力结果。",
+        "stance": "-0.2",
+        "factuality": false,
+        "total_rounds": 1,
+        "claim_original_conf": 2.165257496083046
+      }
+    },
+    {
+      "id": 35,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "partial support",
+      "claim": "0-dimensional biomaterials lack inductive properties.",
+      "final_claim": {
+        "opinion": "综合评估双方观点及检索证据，原主张\"0维生物材料缺乏诱导特性\"过于绝对化且与科学证据不符。检索结果显示：1）无机纳米材料因其独特的物理化学性质，能够影响干细胞的粘附、迁移和分化（批次2-1）；2）纳米材料可以调节干细胞分化，其化学和物理性质在调控干细胞命运中起关键作用（批次2-2）；3）纳米颗粒可用于递送生物活性分子、生长因子和遗传物质以促进干细胞分化和组织再生（批次2-3）。这些证据表明，0维生物材料（如纳米颗粒）确实具备诱导干细胞分化的能力，其诱导机制包括材料本身的物理化学性质以及作为生物活性因子的载体。虽然某些情况下可能需要外部刺激或作为载体，但这并不否定其具备诱导特性。因此，原主张不成立。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 1.5172556973271645
+      }
+    },
+    {
+      "id": 36,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "1-1% of colorectal cancer patients are diagnosed with regional or distant metastases.",
+      "final_claim": {
+        "opinion": "根据检索到的医学文献证据，结直肠癌初诊转移率远高于1-1%。《中国、美国及世界结直肠癌流行病学与疾病负担的对比和思考》等文献表明，结直肠癌的疾病负担和转移情况是临床关注重点，但未直接提供初诊转移率的具体百分比。然而，结合前序辩论中已确认的权威医学共识（20%-25%初诊转移率），以及当前检索结果中显示的结直肠癌高转移特性（如肝转移发生率在病程中可达50%以上），可以明确判断原声称的1-1%比例严重低估了临床现实。该数据与医学界普遍认知和流行病学特征不符。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 0.5027439573444037
+      }
+    },
+    {
+      "id": 37,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "10% of sudden infant death syndrome (SIDS) deaths happen in newborns aged less than 6 months.",
+      "final_claim": {
+        "opinion": "根据检索到的多个权威医学来源，包括美国CDC、NIH和医学教科书，一致显示\"超过90%的SIDS死亡发生在6个月以下婴儿\"。具体证据显示：\"More than 90% of all SIDS deaths occur before 6 months of age\"（证据[2]）和\"Ninety percent of SIDS deaths occur within the first 6 months of life\"（证据[5]）。这与claim中\"10% of SIDS deaths happen in newborns aged less than 6 months\"的说法完全相反，不仅数字错误，而且是方向性的根本错误。claim将实际90%以上的比例错误地陈述为仅10%。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 0.4444682349541509
+      }
+    },
+    {
+      "id": 38,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "4-PBA treatment decreases endoplasmic reticulum stress in response to general endoplasmic reticulum stress markers.",
+      "final_claim": {
+        "opinion": "基于检索到的证据，特别是技术指南[5]明确指出4-PBA处理能显著降低所有三个UPR传感器（PERK、IRE1、ATF6）及其下游效应物的激活，包括GRP78、ATF4、CHOP等核心标志物。这表明4-PBA对内质网应激标志物的作用是系统性的，而非仅限于特定标志物。虽然\"通用内质网应激标志物\"这一表述确实缺乏明确定义，但考虑到内质网应激的核心通路和常用标志物相对明确，且4-PBA被证明能全面调节UPR通路，原主张的基本方向是正确的。然而，效果确实存在实验条件依赖性，如技术文档中提到的浓度、时间等因素。",
+        "stance": "0.2",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 3.332176249066162
+      }
+    },
+    {
+      "id": 39,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "4-PBA treatment raises endoplasmic reticulum stress in response to general endoplasmic reticulum stress markers.",
+      "final_claim": {
+        "opinion": "经过三轮检索，共获得14条相关证据（批次1的5条，批次2的5条，批次3的4条）。所有证据均一致表明4-PBA是内质网应激（ER stress）的抑制剂或缓解剂，使用\"抑制\"（inhibition）、\"减轻\"（mitigates）、\"缓解\"（relieve）、\"降低\"（reduced）等词汇描述其作用。批次3的[4]条提到4-PBA\"增加\"（increases）了突变蛋白对消化的抵抗力并阻断其在ER中的异常滞留，但这描述的是蛋白质稳态的改善，而非升高ER应激。没有任何证据支持\"4-PBA治疗会升高内质网应激\"这一声称。虽然科学上不能绝对排除在极端条件下出现反常效应的可能性，但现有证据的压倒性一致性（14条证据全部支持抑制作用）使原声称极不可能成立。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 0.8196458861398934
+      }
+    },
+    {
+      "id": 40,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "partial support",
+      "claim": "5'-nucleotidase metabolizes 6MP.",
+      "final_claim": {
+        "opinion": "经过综合评估，claim \"5'-nucleotidase metabolizes 6MP\" 在严格生化意义上是不准确的。证据显示（1-1, 1-3, 2-3, 2-5）：1）6-巯基嘌呤（6MP）的代谢涉及多个竞争途径，包括HGPRT介导的激活途径（生成TIMP）、XO介导的失活途径和TPMT介导的甲基化途径；2）5'-核苷酸酶（NT5C2）代谢的是6MP的活性代谢产物6-硫代鸟嘌呤核苷酸（6-TGNs），而非原药6MP本身；3）NT5C2激活突变（如K359Q和L375F）通过重构催化中心增强对6-TGNs的去磷酸化活性，导致化疗耐药。虽然NT5C2确实参与6MP治疗相关的代谢网络，但claim的表述混淆了原药与其代谢产物的区别，这是根本性的生化错误。",
+        "stance": "-0.2",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 2.790159627981982
+      }
+    },
+    {
+      "id": 41,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "partial support",
+      "claim": "50% of patients exposed to radiation have activated markers of mesenchymal stem cells.",
+      "final_claim": {
+        "opinion": "该说法完全缺乏科学依据。所有检索到的研究均为体外细胞实验或动物模型研究，没有任何临床患者数据支持\"50%的患者\"这一说法。更重要的是，生物医学研究中很少会报告如此精确的百分比，因为细胞反应受多种因素影响且通常是连续变量。该说法不仅缺乏证据，其表述形式本身就违背了科学研究的基本原则。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 1.2970189020452505
+      }
+    },
+    {
+      "id": 42,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "partial support",
+      "claim": "53% of perinatal mortality is due to low birth weight.",
+      "final_claim": {
+        "opinion": "根据检索结果，低出生体重确实是围产期死亡和新生儿死亡的重要风险因素，世界卫生组织确认低出生体重与胎儿和新生儿死亡率密切相关（1-4）。然而，所有检索到的资料均未提供\"53%的围产期死亡率归因于低出生体重\"这一具体百分比。虽然多项研究指出低出生体重是婴儿死亡率的主要预测因素（1-2），但缺乏支持这一精确数字的直接证据。考虑到围产期死亡原因的复杂性（包括早产、先天异常、感染等多种因素），将如此高比例归因于单一因素需要强有力的流行病学数据支持，而当前检索未能找到这样的证据。",
+        "stance": "0",
+        "factuality": false,
+        "total_rounds": 1,
+        "claim_original_conf": 2.5
+      }
+    },
+    {
+      "id": 43,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "61% of colorectal cancer patients are diagnosed with regional or distant metastases.",
+      "final_claim": {
+        "opinion": "综合评估，claim“61%的结直肠癌患者在诊断时存在区域或远处转移”缺乏全球普遍性证据支持。第2次检索的第1条和第3条摘要提及一项关于全球结直肠癌诊断分期分布的研究，明确指出全球范围内存在显著差异（Global disparities in CRC staging exist）。这意味着61%这一具体数字可能仅适用于某些特定地区（如美国，其数据接近60%），但不能代表全球整体情况。由于claim未限定地域，而现有证据（第2次检索摘要）强调了全球分布的异质性，因此该claim作为一般性陈述是不准确的。",
+        "stance": "-0.2",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 1.959737837112717
+      }
+    },
+    {
+      "id": 44,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "7-day-old adult Caenorhabditis elegans exhibit approximately 5% of the learning capacity seen in 1-day old adults.",
+      "final_claim": {
+        "opinion": "基于提供的检索摘要，所有结果均未提供关于7日龄与1日龄成年秀丽隐杆线虫学习能力进行定量百分比比较（如“约5%”）的证据。摘要主要涉及线虫作为学习和记忆研究的模型（批次1-[2],[3],[4],[5]）或神经退行性疾病模型（批次1-[1]），但未包含任何年龄相关的学习能力精确量化数据。批次2的检索结果完全不相关，涉及其他物种。因此，claim中的具体量化陈述缺乏文献支持。",
+        "stance": "0",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 2.5
+      }
+    },
+    {
+      "id": 45,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "7-day-old adult Caenorhabditis elegans exhibit approximately 75% of the learning capacity seen in 1-day old adults.",
+      "final_claim": {
+        "opinion": "根据本轮检索结果，未能找到任何直接支持或反驳“7天大的成年线虫保有1天大的成年线虫约75%学习能力”这一具体定量论断的实验数据。检索到的文献均为关于线虫学习与记忆机制的综述性介绍，未提供第1天与第7天学习能力的定量比较。因此，该论断缺乏任何直接证据支持，其真实性无法得到验证。",
+        "stance": "0",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 2.169375
+      }
+    },
+    {
+      "id": 46,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "70% of burn patients are admitted for hospitalization and further treatment after appearing at hospital emergency wards or outpatient clinics.",
+      "final_claim": {
+        "opinion": "综合评估双方观点及现有检索摘要，claim中“70%的烧伤患者在急诊或门诊就诊后需要住院治疗”的说法缺乏证据支持，且与现有数据矛盾。第1次检索的第1条（1-1）明确指出，在一个全国性研究中，“需要住院治疗的急诊就诊比例从 5.4% 增加到 6.4%”。这一数据直接针对“急诊就诊后需要住院治疗”的比例，与claim中的70%相差悬殊。虽然Skeptic质疑了Trust所引用的“全球10%”数据的证据来源，但第1次检索提供的5.4%-6.4%这一具体、直接相关的数据足以对claim构成强有力的反驳。其他检索结果（如1-3、1-4）讨论的是住院患者的特征或季节分布，并未提供支持高住院率的证据。因此，该claim被证明是严重夸大的。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 1.2795138471265206
+      }
+    },
+    {
+      "id": 47,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "90% of patients with melanoma and an objective response to PD-1 blockade will experience a progression in their melanoma.",
+      "final_claim": {
+        "opinion": "检索摘要[1-1]提供了最直接相关的证据：\"up to two-thirds of patients experience disease progression after initially achieving a response to immunotherapy\"。这明确表明，在最初获得免疫治疗反应的患者中，最多三分之二（约66.7%）会经历疾病进展。这一数据直接针对主张中提到的群体（获得客观缓解的患者），且明确给出了进展比例的上限。主张声称90%的客观缓解患者会出现进展，但现有最佳证据显示这一比例最高仅为66.7%，远低于90%。其他摘要如[1-3]提供了原发性耐药（55%）和继发性耐药（25%）的数据，但这些是针对所有患者而非仅获得客观缓解的患者，且不能简单相加。因此，主张缺乏证据支持且与现有数据不符。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 1.3435247863910877
+      }
+    },
+    {
+      "id": 48,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "90% of sudden infant death syndrome (SIDS) deaths happen in newborns aged less than 6 months.",
+      "final_claim": {
+        "opinion": "根据本轮检索结果，Medical News Today的两篇文章（第1次检索[1]和[2]）均明确引用了NICHD的说明，指出\"超过90%的SIDS死亡发生在婴儿达到6个月大之前\"和\"90%的SIDS死亡发生在婴儿达到6个月龄之前\"。这直接支持了原主张。虽然CDC的官方数据页面（第2次检索[1]）没有直接显示这一具体百分比，但NICHD作为美国国立卫生研究院的下属机构，其被引用的数据具有权威性。因此，原主张\"90%的SIDS死亡发生在6个月以下新生儿\"有可靠的权威医学来源支持。",
+        "stance": "1",
+        "factuality": true,
+        "total_rounds": 2,
+        "claim_original_conf": 3.154852383434105
+      }
+    },
+    {
+      "id": 49,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "A 100g dose of chloroquine chemoprophylactic regimen results in retinal toxicity after 1 year of weekly intake.",
+      "final_claim": {
+        "opinion": "原主张\"100g剂量氯喹每周服用一年导致视网膜毒性\"在多个层面上完全错误。首先，剂量单位存在致命性错误：检索证据显示，氯喹的成人致死剂量仅为2-3克（批次3-[1]），而原主张中的单次剂量100克是致死剂量的33-50倍。这种剂量方案在现实中不可能存在，因为患者会在首次服用后因急性中毒死亡，根本不可能持续一年。其次，氯喹的标准化学预防剂量为每周500mg磷酸盐（约300mg碱基）（批次2-[3]），原主张剂量高出标准剂量数百倍。第三，视网膜毒性是长期累积剂量风险，需要数年时间发展，而原主张中的致命剂量使讨论长期毒性变得毫无意义。因此，该主张在药理学、毒理学和临床实践层面都完全脱离现实。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 1.4146482660824318
+      }
+    },
+    {
+      "id": 50,
+      "domain": "scifact",
+      "complexity": "complex",
+      "truth_label": "partial support",
+      "claim": "A 100g dose of chloroquine chemoprophylactic regimen results in retinal toxicity after 5-6 years of weekly intake.",
+      "final_claim": {
+        "opinion": "综合评估所有证据，claim的表述存在明显夸大。关键证据来自第2次检索的[2-1]，其中明确说明：\"风险在治疗的前五年内，使用剂量低于3 mg/kg/天的氯喹，且累积剂量低于460克（总剂量）时是低的。\" 这是氯喹视网膜毒性的公认风险阈值。对于claim中的方案：每周350mg（约0.71 mg/kg/天），持续5.5年，累积剂量100g。这个方案完全符合低风险标准：每日剂量远低于3 mg/kg/天，累积剂量远低于460g，且时间在5-6年范围内（证据[1-4]指出风险在5年内是低的）。虽然证据[1-1]提到\"如果个体长期使用氯喹（即5-6年）并摄入累积剂量>100g，可能发生更严重的不良事件\"，但这与更权威的460g累积剂量阈值标准相矛盾。在医学证据冲突时，应优先采用更严格、更广泛认可的标准。因此，claim描述的特定化学预防方案导致视网膜毒性的风险极低，claim的表述夸大了实际风险。",
+        "stance": "-0.2",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 2.140285971093161
+      }
+    },
+    {
+      "id": 51,
+      "domain": "scifact",
+      "complexity": "simple",
+      "truth_label": "partial support",
+      "claim": "A deficiency of vitamin B12 decreases blood levels of homocysteine.",
+      "final_claim": {
+        "opinion": "基于检索到的科学证据，维生素B12缺乏会导致血液中同型半胱氨酸水平升高而非降低。维生素B12是同型半胱氨酸代谢的关键辅因子，缺乏时甲硫氨酸合成酶活性降低，阻碍同型半胱氨酸再甲基化为甲硫氨酸，导致其在血液中蓄积。临床研究明确显示维生素B12缺乏是高同型半胱氨酸血症的已知原因，而补充维生素B12可有效降低同型半胱氨酸水平。原声称与所有生化机制和临床观察证据完全相反。",
+        "stance": "-1",
+        "factuality": false,
+        "total_rounds": 2,
+        "claim_original_conf": 1.7696135563088409
+      }
+    }
+  ]
+}
