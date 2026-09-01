@@ -2,11 +2,11 @@
 
 本仓库是论文 **"CWF: A Collaborative Writing Framework for Personalized and Reliable Popular Science Writing"** 的开源代码，覆盖 CWF 的三个核心模块：
 
-| 模块 | 目录 | 说明 |
-| --- | --- | --- |
-| 训练（DA-MoE） | [`training/`](training/) | 基于 MoE-PEFT 的领域知识 / 读者适配专家训练与 AlphaNet 融合门控训练 |
-| 事实核查 | [`fact_checking/`](fact_checking/) | 多智能体辩论（Leader / Trust / Skeptic）+ 图上置信度传播 + 写作修订 |
-| 评测（PSCB） | [`evaluation/`](evaluation/) | LLM-as-a-Judge 个性化评测（Cognitive Load / Personalization Alignment / Reader Attitude）与 Pairwise 排行 |
+| 模块           | 目录                               | 说明                                                                                                      |
+| -------------- | ---------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| 训练（DA-MoE） | [`training/`](training/)           | 基于 MoE-PEFT 的领域知识 / 读者适配专家训练与 AlphaNet 融合门控训练                                       |
+| 事实核查       | [`fact_checking/`](fact_checking/) | 多智能体辩论（Leader / Trust / Skeptic）+ 图上置信度传播 + 写作修订                                       |
+| 评测（PSCB）   | [`evaluation/`](evaluation/)       | LLM-as-a-Judge 个性化评测（Cognitive Load / Personalization Alignment / Reader Attitude）与 Pairwise 排行 |
 
 > 论文中的「协作写作（Collaborative Writing）」部分（起草与扩写）见 `fact_checking/forum/base_forum.py` 的用户-专家多轮论坛示例；评测数据（PSCB）与训练数据按 License 另行发布，请按下文中约定的数据格式自行准备。
 
@@ -215,11 +215,11 @@ PSCB 从两个分支联合评估：
 ## 引用
 
 ```bibtex
-@article{cfw2026,
-  title   = {CWF: A Collaborative Writing Framework for Personalized and Reliable Popular Science Writing},
-  author  = {待补充},
-  journal = {待补充},
-  year    = {2026}
+@article{fu2026cwf,
+  title     = {CWF: A Collaborative Writing Framework for Personalized and Reliable Popular Science Writing},
+  author    = {Fu, Ruibiao and Tang, Di and Yang, Yunlong and Wang, Ran and Lu, Sicheng and Wu, Peixuan and Fan, Xiaoyu and Ma, Jiacheng and Luo, Haozhe and Xiao, Yang},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},
+  year      = {2026},
 }
 ```
 
